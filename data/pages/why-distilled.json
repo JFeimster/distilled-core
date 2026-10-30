@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.0",
+  "id": "core-why-distilled",
+  "slug": "why-distilled",
+  "path": "/why-distilled",
+  "pageType": "corporate-editorial",
+  "family": "company",
+  "parentPath": "/",
+  "navGroups": [
+    "company"
+  ],
+  "status": "copy-review",
+  "indexStatus": "noindex",
+  "review": {
+    "status": "requires-editorial-review",
+    "lastReviewed": null,
+    "sourceKind": "editorial-draft",
+    "sources": []
+  },
+  "seo": {
+    "title": "Why Distilled | Distilled Funding & Moonshine Capital",
+    "description": "A business needs a route that fits its economics—not simply the most visible button on a finance website.",
+    "canonicalPath": "/why-distilled",
+    "intendedCanonicalHost": "https://www.distilledfunding.com",
+    "schemaTypes": [
+      "WebPage",
+      "BreadcrumbList"
+    ],
+    "publishable": true
+  },
+  "hero": {
+    "eyebrow": "THE DIFFERENCE / 05",
+    "headline": "LESS PRODUCT PITCH. MORE DECISION SUPPORT.",
+    "subheadline": "A business needs a route that fits its economics—not simply the most visible button on a finance website."
+  },
+  "content": {
+    "lead": "Business owners often face fragmented information: funding on one site, tools elsewhere, and specialized advice buried inside unrelated articles.",
+    "sections": [
+      {
+        "id": "reality",
+        "type": "editorial",
+        "heading": "THE REALITY",
+        "body": "Business owners often face fragmented information: funding on one site, tools elsewhere, and specialized advice buried inside unrelated articles."
+      },
+      {
+        "id": "route",
+        "type": "editorial-path",
+        "heading": "HOW TO APPROACH IT",
+        "body": "The Distilled network separates money products from operating problems, industry models and acquisition decisions. That lets each page answer a tighter question and connect to a specialist destination when necessary."
+      },
+      {
+        "id": "next",
+        "type": "decision-note",
+        "heading": "YOUR NEXT MOVE",
+        "body": "Use the site to compare concepts and prepare questions. Real financing requires provider-specific review and clear consideration of total costs."
+      }
+    ],
+    "complianceNotes": [
+      "Editorial draft; no invented financial product terms."
+    ]
+  },
+  "cta": {
+    "label": "EXPLORE THE SYSTEM",
+    "target": "/our-network",
+    "targetKind": "local"
+  },
+  "relatedPaths": [
+    "/how-it-works",
+    "/explore"
+  ],
+  "modulePlan": {
+    "surface": "corporate-editorial",
+    "modules": [
+      "hero",
+      "reality",
+      "route",
+      "next",
+      "related",
+      "final-cta"
+    ]
+  },
+  "sourceFile": "data/pages/why-distilled.json"
+}

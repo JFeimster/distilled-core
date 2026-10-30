@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.0",
+  "id": "core-explore-solutions",
+  "slug": "solutions",
+  "path": "/explore/solutions",
+  "pageType": "property-gateway",
+  "family": "explore",
+  "parentPath": "/explore",
+  "navGroups": [
+    "explore"
+  ],
+  "status": "copy-review",
+  "indexStatus": "noindex",
+  "review": {
+    "status": "requires-editorial-review",
+    "lastReviewed": null,
+    "sourceKind": "editorial-draft",
+    "sources": []
+  },
+  "seo": {
+    "title": "Solutions | Distilled Funding & Moonshine Capital",
+    "description": "Cash-flow constraints, growth decisions, business credit and financial operations require more than a product list.",
+    "canonicalPath": "/explore/solutions",
+    "intendedCanonicalHost": "https://www.distilledfunding.com",
+    "schemaTypes": [
+      "WebPage",
+      "BreadcrumbList"
+    ],
+    "publishable": true
+  },
+  "hero": {
+    "eyebrow": "NETWORK / OUTCOMES",
+    "headline": "FIX THE PROBLEM. THEN CHOOSE THE TOOL.",
+    "subheadline": "Cash-flow constraints, growth decisions, business credit and financial operations require more than a product list."
+  },
+  "content": {
+    "lead": "An owner may know the result they need without knowing which operational or capital change will produce it.",
+    "sections": [
+      {
+        "id": "reality",
+        "type": "editorial",
+        "heading": "THE REALITY",
+        "body": "An owner may know the result they need without knowing which operational or capital change will produce it."
+      },
+      {
+        "id": "route",
+        "type": "editorial-path",
+        "heading": "HOW TO APPROACH IT",
+        "body": "Solutions organizes the next step by desired outcome and includes diagnostics, decision pathways and supporting resources. Core sends the visitor to the specific Solutions hub when appropriate."
+      },
+      {
+        "id": "next",
+        "type": "decision-note",
+        "heading": "YOUR NEXT MOVE",
+        "body": "Start with the operating constraint and what success would look like—not an imagined approval score. For example, improve-cash-flow and funding-readiness guides help operators understand the underlying constraints before they compare any type of borrowed capital."
+      }
+    ],
+    "complianceNotes": [
+      "Editorial draft; no invented financial product terms."
+    ]
+  },
+  "cta": {
+    "label": "VISIT SOLUTIONS",
+    "target": "prop:solutions",
+    "targetKind": "property"
+  },
+  "relatedPaths": [
+    "/explore/funding",
+    "/explore/tools"
+  ],
+  "modulePlan": {
+    "surface": "property-gateway",
+    "modules": [
+      "hero",
+      "reality",
+      "route",
+      "next",
+      "related",
+      "final-cta"
+    ]
+  },
+  "sourceFile": "data/pages/explore--solutions.json"
+}

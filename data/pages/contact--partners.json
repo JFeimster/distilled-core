@@ -1,0 +1,85 @@
+{
+  "schemaVersion": "1.0",
+  "id": "core-contact-partners",
+  "slug": "partners",
+  "path": "/contact/partners",
+  "pageType": "contact-handoff",
+  "family": "contact",
+  "parentPath": "/contact",
+  "navGroups": [
+    "contact"
+  ],
+  "status": "copy-review",
+  "indexStatus": "noindex",
+  "review": {
+    "status": "requires-editorial-review",
+    "lastReviewed": null,
+    "sourceKind": "wix-partners-adapted",
+    "sources": [
+      "https://www.distilledfunding.com/partners"
+    ]
+  },
+  "seo": {
+    "title": "Partnership Inquiries | Distilled Funding & Moonshine Capital",
+    "description": "Professional referrals, affiliate distribution and broker relationships need a different conversation from a borrower application.",
+    "canonicalPath": "/contact/partners",
+    "intendedCanonicalHost": "https://www.distilledfunding.com",
+    "schemaTypes": [
+      "WebPage",
+      "BreadcrumbList"
+    ],
+    "publishable": true
+  },
+  "hero": {
+    "eyebrow": "CONTACT / PARTNERS",
+    "headline": "BRING CAPITAL INTO THE RELATIONSHIPS YOU ALREADY HAVE.",
+    "subheadline": "Professional referrals, affiliate distribution and broker relationships need a different conversation from a borrower application."
+  },
+  "content": {
+    "lead": "An accountant, MSP, consultant or existing funding broker may want to introduce a service to clients rather than apply for financing.",
+    "sections": [
+      {
+        "id": "reality",
+        "type": "editorial",
+        "heading": "THE REALITY",
+        "body": "An accountant, MSP, consultant or existing funding broker may want to introduce a service to clients rather than apply for financing."
+      },
+      {
+        "id": "route",
+        "type": "editorial-path",
+        "heading": "HOW TO APPROACH IT",
+        "body": "Explore the partner gateway, understand the available models, and use an approved partner inquiry destination. Terms, commissions and enrollment availability must be confirmed rather than assumed."
+      },
+      {
+        "id": "next",
+        "type": "decision-note",
+        "heading": "YOUR NEXT MOVE",
+        "body": "Do not promise earnings or imply a particular affiliation is active merely because the historical Wix page described it."
+      }
+    ],
+    "complianceNotes": [
+      "Editorial draft; no invented financial product terms."
+    ]
+  },
+  "cta": {
+    "label": "EXPLORE PARTNER OPTIONS",
+    "target": "/partners",
+    "targetKind": "local"
+  },
+  "relatedPaths": [
+    "/contact",
+    "/explore/partners"
+  ],
+  "modulePlan": {
+    "surface": "contact-handoff",
+    "modules": [
+      "hero",
+      "reality",
+      "route",
+      "next",
+      "related",
+      "final-cta"
+    ]
+  },
+  "sourceFile": "data/pages/contact--partners.json"
+}

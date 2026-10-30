@@ -1,0 +1,277 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.distilledfunding.com/schemas/core-page.schema.json",
+  "title": "Distilled Core Canonical Page Copy Record",
+  "description": "Canonical editable record under data/pages/*.json; no remote schema hosting is implied",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "id",
+    "slug",
+    "path",
+    "pageType",
+    "family",
+    "parentPath",
+    "navGroups",
+    "status",
+    "indexStatus",
+    "review",
+    "seo",
+    "hero",
+    "content",
+    "cta",
+    "relatedPaths",
+    "modulePlan",
+    "sourceFile"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "1.0"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^core-"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string",
+      "pattern": "^/"
+    },
+    "pageType": {
+      "type": "string"
+    },
+    "family": {
+      "enum": [
+        "home",
+        "company",
+        "contact",
+        "explore",
+        "resources",
+        "partners",
+        "legal"
+      ]
+    },
+    "parentPath": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^/"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "navGroups": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "status": {
+      "type": "string"
+    },
+    "indexStatus": {
+      "const": "noindex"
+    },
+    "review": {
+      "type": "object",
+      "required": [
+        "status",
+        "lastReviewed",
+        "sourceKind",
+        "sources"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "requires-editorial-review",
+            "requires-legal-review"
+          ]
+        },
+        "lastReviewed": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "sourceKind": {
+          "type": "string"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      }
+    },
+    "seo": {
+      "type": "object",
+      "required": [
+        "title",
+        "description",
+        "canonicalPath",
+        "intendedCanonicalHost",
+        "schemaTypes",
+        "publishable"
+      ],
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 12
+        },
+        "description": {
+          "type": "string",
+          "minLength": 40
+        },
+        "canonicalPath": {
+          "type": "string",
+          "pattern": "^/"
+        },
+        "intendedCanonicalHost": {
+          "const": "https://www.distilledfunding.com"
+        },
+        "schemaTypes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "publishable": {
+          "type": "boolean"
+        }
+      }
+    },
+    "hero": {
+      "type": "object",
+      "required": [
+        "eyebrow",
+        "headline",
+        "subheadline"
+      ],
+      "properties": {
+        "eyebrow": {
+          "type": "string"
+        },
+        "headline": {
+          "type": "string",
+          "minLength": 12
+        },
+        "subheadline": {
+          "type": "string",
+          "minLength": 40
+        }
+      }
+    },
+    "content": {
+      "type": "object",
+      "required": [
+        "lead",
+        "sections",
+        "complianceNotes"
+      ],
+      "properties": {
+        "lead": {
+          "type": "string"
+        },
+        "sections": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "type",
+              "heading",
+              "body"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "type": {
+                "type": "string"
+              },
+              "heading": {
+                "type": "string"
+              },
+              "body": {
+                "type": "string",
+                "minLength": 100
+              }
+            }
+          }
+        },
+        "complianceNotes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "cta": {
+      "type": "object",
+      "required": [
+        "label",
+        "target",
+        "targetKind"
+      ],
+      "properties": {
+        "label": {
+          "type": "string"
+        },
+        "target": {
+          "type": "string"
+        },
+        "targetKind": {
+          "enum": [
+            "local",
+            "property",
+            "capability",
+            "mailto"
+          ]
+        }
+      }
+    },
+    "relatedPaths": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^/"
+      }
+    },
+    "modulePlan": {
+      "type": "object",
+      "required": [
+        "surface",
+        "modules"
+      ],
+      "properties": {
+        "surface": {
+          "type": "string"
+        },
+        "modules": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "sourceFile": {
+      "type": "string",
+      "pattern": "^data/pages/"
+    }
+  }
+}

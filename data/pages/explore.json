@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0",
+  "id": "core-explore",
+  "slug": "explore",
+  "path": "/explore",
+  "pageType": "ecosystem-directory",
+  "family": "explore",
+  "parentPath": "/",
+  "navGroups": [
+    "explore"
+  ],
+  "status": "copy-review",
+  "indexStatus": "noindex",
+  "review": {
+    "status": "requires-editorial-review",
+    "lastReviewed": null,
+    "sourceKind": "editorial-draft",
+    "sources": []
+  },
+  "seo": {
+    "title": "Explore | Distilled Funding & Moonshine Capital",
+    "description": "The Distilled network is organized by what you want, what your business does and which specialized tool should handle the next action.",
+    "canonicalPath": "/explore",
+    "intendedCanonicalHost": "https://www.distilledfunding.com",
+    "schemaTypes": [
+      "WebPage",
+      "BreadcrumbList"
+    ],
+    "publishable": true
+  },
+  "hero": {
+    "eyebrow": "NETWORK / ALL DESTINATIONS",
+    "headline": "PICK A MISSION. FIND THE RIGHT PLACE.",
+    "subheadline": "The Distilled network is organized by what you want, what your business does and which specialized tool should handle the next action."
+  },
+  "content": {
+    "lead": "A directory of links is only useful when every destination has a clear reason to exist.",
+    "sections": [
+      {
+        "id": "reality",
+        "type": "editorial",
+        "heading": "THE REALITY",
+        "body": "A directory of links is only useful when every destination has a clear reason to exist. If a service is still planned or awaiting its production hostname, the directory must explain that status and offer a real current alternative rather than a dead link."
+      },
+      {
+        "id": "route",
+        "type": "editorial-path",
+        "heading": "HOW TO APPROACH IT",
+        "body": "Search and filter by funding, business problems, industry, acquisitions, tools, business services, education or partnerships. Distinguish live, preview and planned properties without exposing broken links."
+      },
+      {
+        "id": "next",
+        "type": "decision-note",
+        "heading": "YOUR NEXT MOVE",
+        "body": "Use the destination cards to continue directly to the canonical owner rather than read a second copy of its content on Core."
+      }
+    ],
+    "complianceNotes": [
+      "Editorial draft; no invented financial product terms."
+    ]
+  },
+  "cta": {
+    "label": "EXPLORE FUNDING",
+    "target": "/explore/funding",
+    "targetKind": "local"
+  },
+  "relatedPaths": [
+    "/our-network",
+    "/explore/solutions",
+    "/explore/industries"
+  ],
+  "modulePlan": {
+    "surface": "ecosystem-directory",
+    "modules": [
+      "hero",
+      "reality",
+      "route",
+      "next",
+      "related",
+      "final-cta"
+    ]
+  },
+  "sourceFile": "data/pages/explore.json"
+}

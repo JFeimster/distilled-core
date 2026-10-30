@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.0",
+  "id": "core-explore-industries",
+  "slug": "industries",
+  "path": "/explore/industries",
+  "pageType": "property-gateway",
+  "family": "explore",
+  "parentPath": "/explore",
+  "navGroups": [
+    "explore"
+  ],
+  "status": "copy-review",
+  "indexStatus": "noindex",
+  "review": {
+    "status": "requires-editorial-review",
+    "lastReviewed": null,
+    "sourceKind": "editorial-draft",
+    "sources": []
+  },
+  "seo": {
+    "title": "Industries | Distilled Funding & Moonshine Capital",
+    "description": "Construction crews, ecommerce sellers and medical practices carry different costs and collect revenue on different schedules.",
+    "canonicalPath": "/explore/industries",
+    "intendedCanonicalHost": "https://www.distilledfunding.com",
+    "schemaTypes": [
+      "WebPage",
+      "BreadcrumbList"
+    ],
+    "publishable": true
+  },
+  "hero": {
+    "eyebrow": "NETWORK / SECTORS",
+    "headline": "YOUR CASH CYCLE ISN’T EVERYONE ELSE’S.",
+    "subheadline": "Construction crews, ecommerce sellers and medical practices carry different costs and collect revenue on different schedules."
+  },
+  "content": {
+    "lead": "General financial advice can miss the operating variables that matter in a specific business model.",
+    "sections": [
+      {
+        "id": "reality",
+        "type": "editorial",
+        "heading": "THE REALITY",
+        "body": "General financial advice can miss the operating variables that matter in a specific business model. A construction company may finance mobilization, while a medical practice may manage reimbursement delays; those differences shape which questions come first."
+      },
+      {
+        "id": "route",
+        "type": "editorial-path",
+        "heading": "HOW TO APPROACH IT",
+        "body": "Industries maps sector-specific cash cycles, business models and common capital uses across its field guides. This gateway should route visitors into its actual directory or selected verified industry pages."
+      },
+      {
+        "id": "next",
+        "type": "decision-note",
+        "heading": "YOUR NEXT MOVE",
+        "body": "Choose your sector and use the industry guide to prepare better questions before selecting a financing or operating option."
+      }
+    ],
+    "complianceNotes": [
+      "Editorial draft; no invented financial product terms."
+    ]
+  },
+  "cta": {
+    "label": "FIND YOUR INDUSTRY",
+    "target": "prop:industries",
+    "targetKind": "property"
+  },
+  "relatedPaths": [
+    "/explore/funding",
+    "/explore/solutions"
+  ],
+  "modulePlan": {
+    "surface": "property-gateway",
+    "modules": [
+      "hero",
+      "reality",
+      "route",
+      "next",
+      "related",
+      "final-cta"
+    ]
+  },
+  "sourceFile": "data/pages/explore--industries.json"
+}

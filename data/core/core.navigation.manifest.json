@@ -1,0 +1,184 @@
+{
+  "schemaVersion": "1.0",
+  "style": "Distilled Operator Capital / flagship",
+  "principle": "Header navigation is curated and shallower than the complete 31-route sitemap.",
+  "brand": {
+    "label": "MOONSHINE CAPITAL",
+    "descriptor": "DISTILLED FUNDING / CAPITAL OPERATING NETWORK",
+    "home": "/"
+  },
+  "primary": [
+    {
+      "label": "Funding",
+      "href": "/explore/funding",
+      "kind": "local-gateway",
+      "property": "funding"
+    },
+    {
+      "label": "Solutions",
+      "href": "/explore/solutions",
+      "kind": "local-gateway",
+      "property": "solutions"
+    },
+    {
+      "label": "Industries",
+      "href": "/explore/industries",
+      "kind": "local-gateway",
+      "property": "industries"
+    },
+    {
+      "label": "Acquire",
+      "href": "/explore/acquisitions",
+      "kind": "local-gateway",
+      "property": "acquire"
+    },
+    {
+      "label": "Tools",
+      "href": "/explore/tools",
+      "kind": "local-gateway",
+      "property": "tools"
+    },
+    {
+      "label": "Marketplace",
+      "href": "/explore/marketplace",
+      "kind": "local-gateway",
+      "property": "marketplace"
+    },
+    {
+      "label": "Partners",
+      "href": "/partners",
+      "kind": "local-gateway",
+      "property": "partners"
+    }
+  ],
+  "utility": {
+    "label": "FIND MY PATH",
+    "href": "/explore"
+  },
+  "menus": [
+    {
+      "id": "explore",
+      "label": "EXPLORE",
+      "columns": [
+        {
+          "heading": "CAPITAL & OPERATIONS",
+          "links": [
+            "/explore/funding",
+            "/explore/solutions",
+            "/explore/industries",
+            "/explore/acquisitions"
+          ]
+        },
+        {
+          "heading": "TOOLS & SERVICES",
+          "links": [
+            "/explore/tools",
+            "/explore/marketplace",
+            "/explore/learn",
+            "/explore/partners"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "company",
+      "label": "COMPANY",
+      "columns": [
+        {
+          "heading": "ABOUT",
+          "links": [
+            "/about",
+            "/our-story",
+            "/mission",
+            "/why-distilled",
+            "/how-it-works"
+          ]
+        },
+        {
+          "heading": "CONNECT",
+          "links": [
+            "/our-network",
+            "/contact",
+            "/careers",
+            "/partners"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "resources",
+      "label": "RESOURCES",
+      "columns": [
+        {
+          "heading": "DISCOVER",
+          "links": [
+            "/resources",
+            "/resources/guides",
+            "/resources/tools",
+            "/resources/articles"
+          ]
+        },
+        {
+          "heading": "WIX-POWERED",
+          "capabilities": [
+            "wix-blog",
+            "wix-events",
+            "wix-booking",
+            "wix-groups",
+            "wix-courses",
+            "wix-programs",
+            "wix-members"
+          ]
+        }
+      ]
+    }
+  ],
+  "footerColumns": [
+    {
+      "heading": "NETWORK",
+      "routes": [
+        "/explore/funding",
+        "/explore/solutions",
+        "/explore/industries",
+        "/explore/acquisitions",
+        "/explore/tools",
+        "/explore/marketplace"
+      ]
+    },
+    {
+      "heading": "COMPANY",
+      "routes": [
+        "/about",
+        "/our-story",
+        "/mission",
+        "/how-it-works",
+        "/why-distilled",
+        "/our-network"
+      ]
+    },
+    {
+      "heading": "CONNECT",
+      "routes": [
+        "/contact",
+        "/contact/funding",
+        "/contact/partners",
+        "/partners",
+        "/careers"
+      ]
+    },
+    {
+      "heading": "RESOURCES & TRUST",
+      "routes": [
+        "/resources",
+        "/resources/articles",
+        "/resources/guides",
+        "/resources/tools",
+        "/legal",
+        "/privacy",
+        "/terms",
+        "/disclosures",
+        "/accessibility"
+      ]
+    }
+  ]
+}

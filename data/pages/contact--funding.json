@@ -1,0 +1,85 @@
+{
+  "schemaVersion": "1.0",
+  "id": "core-contact-funding",
+  "slug": "funding",
+  "path": "/contact/funding",
+  "pageType": "contact-handoff",
+  "family": "contact",
+  "parentPath": "/contact",
+  "navGroups": [
+    "contact"
+  ],
+  "status": "copy-review",
+  "indexStatus": "noindex",
+  "review": {
+    "status": "requires-editorial-review",
+    "lastReviewed": null,
+    "sourceKind": "verified-wix-capability",
+    "sources": [
+      "https://www.distilledfunding.com"
+    ]
+  },
+  "seo": {
+    "title": "Funding Inquiries | Distilled Funding & Moonshine Capital",
+    "description": "Start with the funding objective, timing and operating situation. The existing application workflow is the place to submit sensitive financial details.",
+    "canonicalPath": "/contact/funding",
+    "intendedCanonicalHost": "https://www.distilledfunding.com",
+    "schemaTypes": [
+      "WebPage",
+      "BreadcrumbList"
+    ],
+    "publishable": true
+  },
+  "hero": {
+    "eyebrow": "CONTACT / FUNDING",
+    "headline": "READY TO DISCUSS CAPITAL?",
+    "subheadline": "Start with the funding objective, timing and operating situation. The existing application workflow is the place to submit sensitive financial details."
+  },
+  "content": {
+    "lead": "A short explanation of what you want to do is useful, but a generic email is not a replacement for a secure application process.",
+    "sections": [
+      {
+        "id": "reality",
+        "type": "editorial",
+        "heading": "THE REALITY",
+        "body": "A short explanation of what you want to do is useful, but a generic email is not a replacement for a secure application process."
+      },
+      {
+        "id": "route",
+        "type": "editorial-path",
+        "heading": "HOW TO APPROACH IT",
+        "body": "Review the Funding product library and readiness resources first if you are still comparing options. When prepared, proceed through the existing application page, subject to its terms and privacy disclosures."
+      },
+      {
+        "id": "next",
+        "type": "decision-note",
+        "heading": "YOUR NEXT MOVE",
+        "body": "Core must not implement or intercept the application form, invent qualification results or store applicant data."
+      }
+    ],
+    "complianceNotes": [
+      "Editorial draft; no invented financial product terms."
+    ]
+  },
+  "cta": {
+    "label": "OPEN FUNDING APPLICATION",
+    "target": "cap:wix-apply",
+    "targetKind": "capability"
+  },
+  "relatedPaths": [
+    "/explore/funding",
+    "/contact"
+  ],
+  "modulePlan": {
+    "surface": "contact-handoff",
+    "modules": [
+      "hero",
+      "reality",
+      "route",
+      "next",
+      "related",
+      "final-cta"
+    ]
+  },
+  "sourceFile": "data/pages/contact--funding.json"
+}

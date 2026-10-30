@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.0",
+  "id": "core-contact",
+  "slug": "contact",
+  "path": "/contact",
+  "pageType": "contact-hub",
+  "family": "contact",
+  "parentPath": "/",
+  "navGroups": [
+    "contact"
+  ],
+  "status": "copy-review",
+  "indexStatus": "noindex",
+  "review": {
+    "status": "requires-editorial-review",
+    "lastReviewed": null,
+    "sourceKind": "editorial-draft",
+    "sources": []
+  },
+  "seo": {
+    "title": "Contact | Distilled Funding & Moonshine Capital",
+    "description": "Funding request, partnership discussion or general question? Choose the appropriate route so your message reaches the right workflow.",
+    "canonicalPath": "/contact",
+    "intendedCanonicalHost": "https://www.distilledfunding.com",
+    "schemaTypes": [
+      "WebPage",
+      "BreadcrumbList"
+    ],
+    "publishable": true
+  },
+  "hero": {
+    "eyebrow": "GET IN TOUCH / 01",
+    "headline": "THE RIGHT CONVERSATION STARTS WITH THE RIGHT SUBJECT.",
+    "subheadline": "Funding request, partnership discussion or general question? Choose the appropriate route so your message reaches the right workflow."
+  },
+  "content": {
+    "lead": "A generic contact box can send a borrower, partner and media request into the same queue. Those are different tasks and should be handled differently.",
+    "sections": [
+      {
+        "id": "reality",
+        "type": "editorial",
+        "heading": "THE REALITY",
+        "body": "A generic contact box can send a borrower, partner and media request into the same queue. Those are different tasks and should be handled differently."
+      },
+      {
+        "id": "route",
+        "type": "editorial-path",
+        "heading": "HOW TO APPROACH IT",
+        "body": "Choose funding inquiries for capital needs, partnership inquiries for referral or distribution programs, and general inquiries for other business matters. Use existing approved forms and inboxes; Core does not store submissions."
+      },
+      {
+        "id": "next",
+        "type": "decision-note",
+        "heading": "YOUR NEXT MOVE",
+        "body": "For a general question, the existing website publishes admin@distilledfunding.com. Do not send financial documents to this general address without a secure approved process."
+      }
+    ],
+    "complianceNotes": [
+      "Editorial draft; no invented financial product terms."
+    ]
+  },
+  "cta": {
+    "label": "CHOOSE CONTACT TYPE",
+    "target": "/contact/funding",
+    "targetKind": "local"
+  },
+  "relatedPaths": [
+    "/contact/partners",
+    "/contact/general"
+  ],
+  "modulePlan": {
+    "surface": "contact-hub",
+    "modules": [
+      "hero",
+      "reality",
+      "route",
+      "next",
+      "related",
+      "final-cta"
+    ]
+  },
+  "sourceFile": "data/pages/contact.json"
+}

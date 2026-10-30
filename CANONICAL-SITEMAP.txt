@@ -1,0 +1,55 @@
+DISTILLED CORE — COMPLETE CANONICAL SITE MAP
+Intended host: https://www.distilledfunding.com
+Current host owner: Wix. Preview noindex. No migration authorized.
+These 31 paths are Core-local path proposals, not live destinations.
+
+[HOMEPAGE]
+/                               Home [flagship]
+
+[COMPANY]
+/about                          About [corporate-editorial]
+/our-story                      Our Story [corporate-editorial]
+/mission                        Mission & Values [corporate-editorial]
+/how-it-works                   How It Works [process]
+/why-distilled                  Why Distilled [corporate-editorial]
+/our-network                    Our Network [ecosystem-hub]
+/careers                        Careers & Opportunities [opportunity-directory]
+
+[CONTACT]
+/contact                        Contact [contact-hub]
+/contact/funding                Funding Inquiries [contact-handoff]
+/contact/partners               Partnership Inquiries [contact-handoff]
+/contact/general                General Inquiries [contact-handoff]
+
+[EXPLORE THE NETWORK]
+/explore                        Explore [ecosystem-directory]
+/explore/funding                Funding [property-gateway]
+/explore/solutions              Solutions [property-gateway]
+/explore/industries             Industries [property-gateway]
+/explore/acquisitions           Acquisitions [property-gateway]
+/explore/tools                  Tools [property-gateway]
+/explore/marketplace            Marketplace [property-gateway]
+/explore/learn                  Learn [property-gateway]
+/explore/partners               Partners [property-gateway]
+
+[RESOURCES]
+/resources                      Resources [resource-hub]
+/resources/guides               Guides [curated-directory]
+/resources/tools                Tools Directory [curated-directory]
+/resources/articles             Articles [curated-directory]
+
+[PARTNER GATEWAY]
+/partners                       Partner With Us [partner-gateway]
+
+[LEGAL / TRUST]
+/legal                          Legal Information [trust-hub] [LEGAL REVIEW REQUIRED]
+/privacy                        Privacy [legal-handoff] [LEGAL REVIEW REQUIRED]
+/terms                          Terms of Use [legal-handoff] [LEGAL REVIEW REQUIRED]
+/disclosures                    Disclosures [legal-handoff] [LEGAL REVIEW REQUIRED]
+/accessibility                  Accessibility [trust-page] [LEGAL REVIEW REQUIRED]
+
+WIX OWNERSHIP / HANDOFFS
+Keep live Wix Blog, Events, Bookings, Groups, Members, Courses, Programs, Forms, CMS and Business Data operational.
+These are capability links, NOT duplicates in this 31-route Core sitemap. See core.wix-capabilities.registry.json.
+
+TOTAL CORE-LOCAL ROUTES: 31

@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.0",
+  "id": "core-disclosures",
+  "slug": "disclosures",
+  "path": "/disclosures",
+  "pageType": "legal-handoff",
+  "family": "legal",
+  "parentPath": "/legal",
+  "navGroups": [
+    "legal"
+  ],
+  "status": "legal-review-required",
+  "indexStatus": "noindex",
+  "review": {
+    "status": "requires-legal-review",
+    "lastReviewed": null,
+    "sourceKind": "editorial-draft",
+    "sources": []
+  },
+  "seo": {
+    "title": "Disclosures | Distilled Funding & Moonshine Capital",
+    "description": "Funding, referrals, tools and affiliate recommendations can involve different commercial relationships and eligibility rules.",
+    "canonicalPath": "/disclosures",
+    "intendedCanonicalHost": "https://www.distilledfunding.com",
+    "schemaTypes": [
+      "WebPage",
+      "BreadcrumbList"
+    ],
+    "publishable": false
+  },
+  "hero": {
+    "eyebrow": "TRUST / DISCLOSURES",
+    "headline": "UNDERSTAND THE RELATIONSHIPS.",
+    "subheadline": "Funding, referrals, tools and affiliate recommendations can involve different commercial relationships and eligibility rules."
+  },
+  "content": {
+    "lead": "Users should understand when the site is providing education, a referral, or information about a third-party product—not a guaranteed financing commitment.",
+    "sections": [
+      {
+        "id": "reality",
+        "type": "editorial",
+        "heading": "THE REALITY",
+        "body": "Users should understand when the site is providing education, a referral, or information about a third-party product—not a guaranteed financing commitment."
+      },
+      {
+        "id": "route",
+        "type": "editorial-path",
+        "heading": "HOW TO APPROACH IT",
+        "body": "Prepare a counsel-reviewed disclosure of broker/affiliate roles, compensation where applicable, product availability, provider independence, and material limitations. Nothing in this draft substitutes for that review."
+      },
+      {
+        "id": "next",
+        "type": "decision-note",
+        "heading": "YOUR NEXT MOVE",
+        "body": "Do not publish unverified legal language. Link to existing approved notices where available, and document outstanding approval requirements."
+      }
+    ],
+    "complianceNotes": [
+      "Legal content not supplied. Do not publish a generated legal contract. Source and approval required."
+    ]
+  },
+  "cta": {
+    "label": "CONTACT FOR CLARIFICATION",
+    "target": "/contact/general",
+    "targetKind": "local"
+  },
+  "relatedPaths": [
+    "/legal",
+    "/privacy"
+  ],
+  "modulePlan": {
+    "surface": "legal-handoff",
+    "modules": [
+      "hero",
+      "reality",
+      "route",
+      "next",
+      "related",
+      "final-cta"
+    ]
+  },
+  "sourceFile": "data/pages/disclosures.json"
+}

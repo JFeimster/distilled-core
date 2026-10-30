@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.0",
+  "id": "core-explore-marketplace",
+  "slug": "marketplace",
+  "path": "/explore/marketplace",
+  "pageType": "property-gateway",
+  "family": "explore",
+  "parentPath": "/explore",
+  "navGroups": [
+    "explore"
+  ],
+  "status": "integration-review",
+  "indexStatus": "noindex",
+  "review": {
+    "status": "requires-editorial-review",
+    "lastReviewed": null,
+    "sourceKind": "editorial-draft",
+    "sources": []
+  },
+  "seo": {
+    "title": "Marketplace | Distilled Funding & Moonshine Capital",
+    "description": "Accounting, business banking, CRM, payroll, marketing and automation services should be easier to compare than a loose pile of affiliate links.",
+    "canonicalPath": "/explore/marketplace",
+    "intendedCanonicalHost": "https://www.distilledfunding.com",
+    "schemaTypes": [
+      "WebPage",
+      "BreadcrumbList"
+    ],
+    "publishable": true
+  },
+  "hero": {
+    "eyebrow": "NETWORK / BUSINESS SERVICES",
+    "headline": "BUILD A BETTER BUSINESS STACK.",
+    "subheadline": "Accounting, business banking, CRM, payroll, marketing and automation services should be easier to compare than a loose pile of affiliate links."
+  },
+  "content": {
+    "lead": "Providers differ in fit, fees, eligibility, integration and the work they actually solve.",
+    "sections": [
+      {
+        "id": "reality",
+        "type": "editorial",
+        "heading": "THE REALITY",
+        "body": "Providers differ in fit, fees, eligibility, integration and the work they actually solve. The first useful version should prioritize verified categories and honest affiliate disclosures, not pretend that every provider has been personally evaluated."
+      },
+      {
+        "id": "route",
+        "type": "editorial-path",
+        "heading": "HOW TO APPROACH IT",
+        "body": "Marketplace is a planned specialist property. Core may describe the scope but must not manufacture service listings, provider ratings, affiliate partnerships or an operating destination until verified."
+      },
+      {
+        "id": "next",
+        "type": "decision-note",
+        "heading": "YOUR NEXT MOVE",
+        "body": "For now, use the current Wix Services directory when available. The future Marketplace will own provider discovery, comparisons and disclosures."
+      }
+    ],
+    "complianceNotes": [
+      "Editorial draft; no invented financial product terms."
+    ]
+  },
+  "cta": {
+    "label": "VIEW CURRENT SERVICES",
+    "target": "cap:wix-services",
+    "targetKind": "capability"
+  },
+  "relatedPaths": [
+    "/explore",
+    "/explore/solutions"
+  ],
+  "modulePlan": {
+    "surface": "property-gateway",
+    "modules": [
+      "hero",
+      "reality",
+      "route",
+      "next",
+      "related",
+      "final-cta"
+    ]
+  },
+  "sourceFile": "data/pages/explore--marketplace.json"
+}

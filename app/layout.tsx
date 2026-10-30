@@ -1,0 +1,3 @@
+import type {Metadata} from "next"; import "@fontsource/barlow-condensed/700.css"; import "@fontsource/barlow-condensed/800.css"; import "@fontsource/dm-sans/400.css"; import "@fontsource/dm-sans/700.css"; import "./globals.css"; import {Header} from "@/components/layout/Header"; import {Footer} from "@/components/layout/Footer";
+export const metadata:Metadata={robots:{index:false,follow:false}};
+export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body><a href="#main" className="skip">Skip to content</a><Header/><main id="main">{children}</main><Footer/></body></html>}

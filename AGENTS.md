@@ -1,0 +1,3 @@
+# Working in Distilled Core
+
+Read `docs/MASTER-CORE-BUILD-PROMPT.md`, the canonical sitemap, page JSON, homepage composition, navigation, ecosystem and Wix registries before changing behavior. `data/pages/*.json` is canonical copy; run `python scripts/generate_core_artifacts.py` after edits, then validate. Preserve exactly the 31 Core routes, the review states and noindex policy. Keep links centralized in the registries and resolver. Do not invent provider facts, policies, tool functionality, metrics or unverified destinations. Wix retains operational ownership; do not change Wix, DNS, external repositories or deploy without separate authorization. Run validation, lint, typecheck, tests and build for changes.

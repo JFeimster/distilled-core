@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.0",
+  "id": "core-explore-learn",
+  "slug": "learn",
+  "path": "/explore/learn",
+  "pageType": "property-gateway",
+  "family": "explore",
+  "parentPath": "/explore",
+  "navGroups": [
+    "explore"
+  ],
+  "status": "copy-review",
+  "indexStatus": "noindex",
+  "review": {
+    "status": "requires-editorial-review",
+    "lastReviewed": null,
+    "sourceKind": "editorial-draft",
+    "sources": []
+  },
+  "seo": {
+    "title": "Learn | Distilled Funding & Moonshine Capital",
+    "description": "Business funding, acquisition decisions and operating workflows get easier to evaluate when the underlying ideas are clear.",
+    "canonicalPath": "/explore/learn",
+    "intendedCanonicalHost": "https://www.distilledfunding.com",
+    "schemaTypes": [
+      "WebPage",
+      "BreadcrumbList"
+    ],
+    "publishable": true
+  },
+  "hero": {
+    "eyebrow": "NETWORK / EDUCATION",
+    "headline": "KNOW THE GAME BEFORE THE GAME CHARGES TUITION.",
+    "subheadline": "Business funding, acquisition decisions and operating workflows get easier to evaluate when the underlying ideas are clear."
+  },
+  "content": {
+    "lead": "Learning content can span guides, articles, live sessions, recorded courses and specialized partner training.",
+    "sections": [
+      {
+        "id": "reality",
+        "type": "editorial",
+        "heading": "THE REALITY",
+        "body": "Learning content can span guides, articles, live sessions, recorded courses and specialized partner training."
+      },
+      {
+        "id": "route",
+        "type": "editorial-path",
+        "heading": "HOW TO APPROACH IT",
+        "body": "Existing Wix blog and learning capabilities remain canonical until a dedicated Learn property is ready. Core should show curated entry points and surface real content—not generate a second publishing backend."
+      },
+      {
+        "id": "next",
+        "type": "decision-note",
+        "heading": "YOUR NEXT MOVE",
+        "body": "Start with the topic and learning format that fits your next decision, then follow the verified publishing destination."
+      }
+    ],
+    "complianceNotes": [
+      "Editorial draft; no invented financial product terms."
+    ]
+  },
+  "cta": {
+    "label": "READ THE BLOG",
+    "target": "cap:wix-blog",
+    "targetKind": "capability"
+  },
+  "relatedPaths": [
+    "/resources/articles",
+    "/resources/guides"
+  ],
+  "modulePlan": {
+    "surface": "property-gateway",
+    "modules": [
+      "hero",
+      "reality",
+      "route",
+      "next",
+      "related",
+      "final-cta"
+    ]
+  },
+  "sourceFile": "data/pages/explore--learn.json"
+}

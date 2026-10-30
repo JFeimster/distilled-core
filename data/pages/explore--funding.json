@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.0",
+  "id": "core-explore-funding",
+  "slug": "funding",
+  "path": "/explore/funding",
+  "pageType": "property-gateway",
+  "family": "explore",
+  "parentPath": "/explore",
+  "navGroups": [
+    "explore"
+  ],
+  "status": "copy-review",
+  "indexStatus": "noindex",
+  "review": {
+    "status": "requires-editorial-review",
+    "lastReviewed": null,
+    "sourceKind": "editorial-draft",
+    "sources": []
+  },
+  "seo": {
+    "title": "Funding | Distilled Funding & Moonshine Capital",
+    "description": "Working capital, business credit, equipment, acquisition financing and real estate capital each solve different funding problems.",
+    "canonicalPath": "/explore/funding",
+    "intendedCanonicalHost": "https://www.distilledfunding.com",
+    "schemaTypes": [
+      "WebPage",
+      "BreadcrumbList"
+    ],
+    "publishable": true
+  },
+  "hero": {
+    "eyebrow": "NETWORK / CAPITAL",
+    "headline": "FIND THE CAPITAL PRODUCT. UNDERSTAND THE COST.",
+    "subheadline": "Working capital, business credit, equipment, acquisition financing and real estate capital each solve different funding problems."
+  },
+  "content": {
+    "lead": "Borrowing the wrong way can impose unnecessary payment pressure or cost, even when funds arrive quickly.",
+    "sections": [
+      {
+        "id": "reality",
+        "type": "editorial",
+        "heading": "THE REALITY",
+        "body": "Borrowing the wrong way can impose unnecessary payment pressure or cost, even when funds arrive quickly."
+      },
+      {
+        "id": "route",
+        "type": "editorial-path",
+        "heading": "HOW TO APPROACH IT",
+        "body": "The Funding property owns financial product explanations and comparisons. Core helps visitors select the subject and then hands them to the appropriate live Funding route."
+      },
+      {
+        "id": "next",
+        "type": "decision-note",
+        "heading": "YOUR NEXT MOVE",
+        "body": "Prepare the amount, use of proceeds, timing, available revenue and other information requested by a specific financing provider when you decide to apply."
+      }
+    ],
+    "complianceNotes": [
+      "Editorial draft; no invented financial product terms."
+    ]
+  },
+  "cta": {
+    "label": "VISIT FUNDING",
+    "target": "prop:funding",
+    "targetKind": "property"
+  },
+  "relatedPaths": [
+    "/explore/solutions",
+    "/contact/funding"
+  ],
+  "modulePlan": {
+    "surface": "property-gateway",
+    "modules": [
+      "hero",
+      "reality",
+      "route",
+      "next",
+      "related",
+      "final-cta"
+    ]
+  },
+  "sourceFile": "data/pages/explore--funding.json"
+}

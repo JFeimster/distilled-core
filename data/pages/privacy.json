@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.0",
+  "id": "core-privacy",
+  "slug": "privacy",
+  "path": "/privacy",
+  "pageType": "legal-handoff",
+  "family": "legal",
+  "parentPath": "/legal",
+  "navGroups": [
+    "legal"
+  ],
+  "status": "legal-review-required",
+  "indexStatus": "noindex",
+  "review": {
+    "status": "requires-legal-review",
+    "lastReviewed": null,
+    "sourceKind": "existing-wix-policy-link",
+    "sources": []
+  },
+  "seo": {
+    "title": "Privacy | Distilled Funding & Moonshine Capital",
+    "description": "Access the applicable privacy notice for the website and related intake experiences.",
+    "canonicalPath": "/privacy",
+    "intendedCanonicalHost": "https://www.distilledfunding.com",
+    "schemaTypes": [
+      "WebPage",
+      "BreadcrumbList"
+    ],
+    "publishable": false
+  },
+  "hero": {
+    "eyebrow": "TRUST / PRIVACY",
+    "headline": "YOUR DATA DESERVES A REAL POLICY.",
+    "subheadline": "Access the applicable privacy notice for the website and related intake experiences."
+  },
+  "content": {
+    "lead": "A new frontend can introduce different analytics, cookie, contact and cross-domain behaviors even when the underlying company stays the same.",
+    "sections": [
+      {
+        "id": "reality",
+        "type": "editorial",
+        "heading": "THE REALITY",
+        "body": "A new frontend can introduce different analytics, cookie, contact and cross-domain behaviors even when the underlying company stays the same."
+      },
+      {
+        "id": "route",
+        "type": "editorial-path",
+        "heading": "HOW TO APPROACH IT",
+        "body": "Preserve a link to the verified existing Wix privacy policy while legal and technical owners assess the future Core deployment. Do not invent a replacement privacy notice or claim data handling that has not been audited."
+      },
+      {
+        "id": "next",
+        "type": "decision-note",
+        "heading": "YOUR NEXT MOVE",
+        "body": "Before indexing the corporate site, secure legal review and confirm which privacy document governs Core, its external integrations and any embedded workflows."
+      }
+    ],
+    "complianceNotes": [
+      "Legal content not supplied. Do not publish a generated legal contract. Source and approval required."
+    ]
+  },
+  "cta": {
+    "label": "OPEN CURRENT PRIVACY POLICY",
+    "target": "cap:wix-privacy",
+    "targetKind": "capability"
+  },
+  "relatedPaths": [
+    "/legal",
+    "/contact/general"
+  ],
+  "modulePlan": {
+    "surface": "legal-handoff",
+    "modules": [
+      "hero",
+      "reality",
+      "route",
+      "next",
+      "related",
+      "final-cta"
+    ]
+  },
+  "sourceFile": "data/pages/privacy.json"
+}

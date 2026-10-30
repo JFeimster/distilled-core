@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.0",
+  "id": "core-resources-guides",
+  "slug": "guides",
+  "path": "/resources/guides",
+  "pageType": "curated-directory",
+  "family": "resources",
+  "parentPath": "/resources",
+  "navGroups": [
+    "resources"
+  ],
+  "status": "copy-review",
+  "indexStatus": "noindex",
+  "review": {
+    "status": "requires-editorial-review",
+    "lastReviewed": null,
+    "sourceKind": "editorial-draft",
+    "sources": []
+  },
+  "seo": {
+    "title": "Guides | Distilled Funding & Moonshine Capital",
+    "description": "Learn the ideas behind capital products, cash-flow decisions, business credit, acquisitions and operating systems.",
+    "canonicalPath": "/resources/guides",
+    "intendedCanonicalHost": "https://www.distilledfunding.com",
+    "schemaTypes": [
+      "WebPage",
+      "BreadcrumbList"
+    ],
+    "publishable": true
+  },
+  "hero": {
+    "eyebrow": "FIELD NOTES / GUIDES",
+    "headline": "PRACTICAL GUIDES. NO APPLICATION REQUIRED.",
+    "subheadline": "Learn the ideas behind capital products, cash-flow decisions, business credit, acquisitions and operating systems."
+  },
+  "content": {
+    "lead": "A useful guide should state its assumptions, explain tradeoffs and identify which next decision it supports.",
+    "sections": [
+      {
+        "id": "reality",
+        "type": "editorial",
+        "heading": "THE REALITY",
+        "body": "A useful guide should state its assumptions, explain tradeoffs and identify which next decision it supports."
+      },
+      {
+        "id": "route",
+        "type": "editorial-path",
+        "heading": "HOW TO APPROACH IT",
+        "body": "This directory should curate verified canonical guides from Funding, Solutions, Industries, Acquire and the existing Wix publication. Do not silently republish full articles on Core."
+      },
+      {
+        "id": "next",
+        "type": "decision-note",
+        "heading": "YOUR NEXT MOVE",
+        "body": "Use tags and clear summaries to find the right guide, then open it on its owning property. A guide should explain whom it is for, what assumptions it makes, what to prepare and which next question remains open after reading."
+      }
+    ],
+    "complianceNotes": [
+      "Editorial draft; no invented financial product terms."
+    ]
+  },
+  "cta": {
+    "label": "EXPLORE FUNDING GUIDES",
+    "target": "prop:funding",
+    "targetKind": "property"
+  },
+  "relatedPaths": [
+    "/resources/articles",
+    "/resources/tools"
+  ],
+  "modulePlan": {
+    "surface": "curated-directory",
+    "modules": [
+      "hero",
+      "reality",
+      "route",
+      "next",
+      "related",
+      "final-cta"
+    ]
+  },
+  "sourceFile": "data/pages/resources--guides.json"
+}

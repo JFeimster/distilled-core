@@ -1,0 +1,85 @@
+{
+  "schemaVersion": "1.0",
+  "id": "core-mission",
+  "slug": "mission",
+  "path": "/mission",
+  "pageType": "corporate-editorial",
+  "family": "company",
+  "parentPath": "/",
+  "navGroups": [
+    "company"
+  ],
+  "status": "copy-review",
+  "indexStatus": "noindex",
+  "review": {
+    "status": "requires-editorial-review",
+    "lastReviewed": null,
+    "sourceKind": "wix-about-adapted",
+    "sources": [
+      "https://www.distilledfunding.com/about"
+    ]
+  },
+  "seo": {
+    "title": "Mission & Values | Distilled Funding & Moonshine Capital",
+    "description": "Our working principles are practical: respect the operator, solve the real problem and use financial leverage with intention.",
+    "canonicalPath": "/mission",
+    "intendedCanonicalHost": "https://www.distilledfunding.com",
+    "schemaTypes": [
+      "WebPage",
+      "BreadcrumbList"
+    ],
+    "publishable": true
+  },
+  "hero": {
+    "eyebrow": "WHAT WE BELIEVE / 03",
+    "headline": "KNOW THE NUMBERS. KEEP THE OPTIONS.",
+    "subheadline": "Our working principles are practical: respect the operator, solve the real problem and use financial leverage with intention."
+  },
+  "content": {
+    "lead": "Working hard is not the same as having endless time or cash. Business owners need useful information before they make binding decisions.",
+    "sections": [
+      {
+        "id": "reality",
+        "type": "editorial",
+        "heading": "THE REALITY",
+        "body": "Working hard is not the same as having endless time or cash. Business owners need useful information before they make binding decisions."
+      },
+      {
+        "id": "route",
+        "type": "editorial-path",
+        "heading": "HOW TO APPROACH IT",
+        "body": "We favor transparent tradeoffs, clear explanations, and options that fit the purpose. The existing company About page highlights hard work, problem solving and balanced leverage; this new site makes those principles visible through its decision tools and content."
+      },
+      {
+        "id": "next",
+        "type": "decision-note",
+        "heading": "YOUR NEXT MOVE",
+        "body": "Identify what success should look like, what information is missing, and which next step improves the decision rather than merely moving an application forward."
+      }
+    ],
+    "complianceNotes": [
+      "Editorial draft; no invented financial product terms."
+    ]
+  },
+  "cta": {
+    "label": "FIND YOUR NEXT MOVE",
+    "target": "/explore",
+    "targetKind": "local"
+  },
+  "relatedPaths": [
+    "/about",
+    "/why-distilled"
+  ],
+  "modulePlan": {
+    "surface": "corporate-editorial",
+    "modules": [
+      "hero",
+      "reality",
+      "route",
+      "next",
+      "related",
+      "final-cta"
+    ]
+  },
+  "sourceFile": "data/pages/mission.json"
+}

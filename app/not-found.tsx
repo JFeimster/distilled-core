@@ -1,0 +1,1 @@
+import Link from "next/link"; export default function NotFound(){return <div className="wrap not-found"><span className="eyebrow">404 / WRONG TURN</span><h1>THIS ROUTE DOESN’T EXIST.</h1><p>Find a path through the network instead.</p><Link className="button" href="/explore">EXPLORE THE NETWORK ↗</Link></div>}

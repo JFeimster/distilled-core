@@ -1,0 +1,86 @@
+{
+  "schemaVersion": "1.0",
+  "id": "core-our-story",
+  "slug": "our-story",
+  "path": "/our-story",
+  "pageType": "corporate-editorial",
+  "family": "company",
+  "parentPath": "/",
+  "navGroups": [
+    "company"
+  ],
+  "status": "copy-review",
+  "indexStatus": "noindex",
+  "review": {
+    "status": "requires-editorial-review",
+    "lastReviewed": null,
+    "sourceKind": "wix-about-adapted",
+    "sources": [
+      "https://www.distilledfunding.com/about"
+    ]
+  },
+  "seo": {
+    "title": "Our Story | Distilled Funding & Moonshine Capital",
+    "description": "The need for business capital rarely arrives neatly packaged in a lender application. It arrives as an opportunity, a gap or a decision that cannot wait forever.",
+    "canonicalPath": "/our-story",
+    "intendedCanonicalHost": "https://www.distilledfunding.com",
+    "schemaTypes": [
+      "WebPage",
+      "BreadcrumbList"
+    ],
+    "publishable": true
+  },
+  "hero": {
+    "eyebrow": "OUR STORY / 02",
+    "headline": "BUILT AROUND THE OPERATOR.",
+    "subheadline": "The need for business capital rarely arrives neatly packaged in a lender application. It arrives as an opportunity, a gap or a decision that cannot wait forever."
+  },
+  "content": {
+    "lead": "Traditional product menus can hide the difference between the cash someone asks for and the underlying challenge. A store may need inventory timing; a contractor may need to bridge payroll; an acquisition buyer may need to understand the whole deal.",
+    "sections": [
+      {
+        "id": "reality",
+        "type": "editorial",
+        "heading": "THE REALITY",
+        "body": "Traditional product menus can hide the difference between the cash someone asks for and the underlying challenge. A store may need inventory timing; a contractor may need to bridge payroll; an acquisition buyer may need to understand the whole deal."
+      },
+      {
+        "id": "route",
+        "type": "editorial-path",
+        "heading": "HOW TO APPROACH IT",
+        "body": "Moonshine Capital’s published background emphasizes small-business, banking and private-lending experience. Distilled Funding extends that operator-first view into dedicated pages for capital, business problems, industries, acquisition work and useful tools."
+      },
+      {
+        "id": "next",
+        "type": "decision-note",
+        "heading": "YOUR NEXT MOVE",
+        "body": "The next chapter is a connected network in which each destination has a clear job. Dates, personal founder biography and company milestones must be added only after source approval."
+      }
+    ],
+    "complianceNotes": [
+      "Editorial draft; no invented financial product terms."
+    ]
+  },
+  "cta": {
+    "label": "SEE HOW IT WORKS",
+    "target": "/how-it-works",
+    "targetKind": "local"
+  },
+  "relatedPaths": [
+    "/about",
+    "/mission",
+    "/our-network"
+  ],
+  "modulePlan": {
+    "surface": "corporate-editorial",
+    "modules": [
+      "hero",
+      "reality",
+      "route",
+      "next",
+      "related",
+      "final-cta"
+    ]
+  },
+  "sourceFile": "data/pages/our-story.json"
+}

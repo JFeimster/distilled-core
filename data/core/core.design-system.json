@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "1.0",
+  "designId": "distilled-operator-capital",
+  "designRole": "Corporate flagship: most distinctive editorial hierarchy in the network, visually compatible with Funding/Solutions/Industries.",
+  "precedentPriority": [
+    "Local _reference/funding-distilled app and styles",
+    "Local _reference/distilled-solutions app and styles",
+    "Local _reference/distilled-industries app and styles",
+    "_reference/design/operator-capital.html",
+    "_reference/design/neobrutalist-landing-preview.html"
+  ],
+  "tokens": {
+    "colors": {
+      "cream": "#F4EFE6",
+      "paper": "#FFFDF8",
+      "ink": "#121212",
+      "orange": "#FF5B2D",
+      "blue": "#1F4BFF",
+      "lime": "#C6FF4A",
+      "muted": "#DDD5C8"
+    },
+    "borders": {
+      "regular": "2px solid #121212",
+      "heavy": "3px solid #121212"
+    },
+    "shadows": {
+      "card": "6px 6px 0 #121212",
+      "featured": "10px 10px 0 #121212"
+    },
+    "typography": {
+      "display": "heavy condensed sans, reuse sibling font if licensed and available",
+      "body": "clean, readable sans",
+      "metadata": "monospace uppercase with controlled tracking"
+    },
+    "layout": {
+      "containerMaxPx": 1440,
+      "gridColumnsDesktop": 12,
+      "mobileMinWidthPx": 320
+    },
+    "motion": {
+      "respectReducedMotion": true,
+      "durationRangeMs": [
+        120,
+        280
+      ]
+    }
+  },
+  "componentFamilies": [
+    "FlagshipHero",
+    "GlobalNav",
+    "MobileDrawer",
+    "OperatorCommandCenter",
+    "MissionBento",
+    "EcosystemGrid",
+    "CapitalRouteRail",
+    "ToolPreview",
+    "IndustrySpotlight",
+    "EditorialPreview",
+    "WixHandoffCard",
+    "TrustFooter"
+  ],
+  "prohibitions": [
+    "purple gradient SaaS",
+    "faux lending scores",
+    "fictional live stats",
+    "broken CTAs",
+    "clone of Funding homepage"
+  ]
+}

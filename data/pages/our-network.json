@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0",
+  "id": "core-our-network",
+  "slug": "our-network",
+  "path": "/our-network",
+  "pageType": "ecosystem-hub",
+  "family": "company",
+  "parentPath": "/",
+  "navGroups": [
+    "company"
+  ],
+  "status": "copy-review",
+  "indexStatus": "noindex",
+  "review": {
+    "status": "requires-editorial-review",
+    "lastReviewed": null,
+    "sourceKind": "editorial-draft",
+    "sources": []
+  },
+  "seo": {
+    "title": "Our Network | Distilled Funding & Moonshine Capital",
+    "description": "Funding, Solutions, Industries, acquisitions, tools, education and partner resources belong together—but should not be mashed into one generic website.",
+    "canonicalPath": "/our-network",
+    "intendedCanonicalHost": "https://www.distilledfunding.com",
+    "schemaTypes": [
+      "WebPage",
+      "BreadcrumbList"
+    ],
+    "publishable": true
+  },
+  "hero": {
+    "eyebrow": "CONNECTED CAPABILITIES / 06",
+    "headline": "ONE NETWORK. THE RIGHT SPECIALIST FOR THE JOB.",
+    "subheadline": "Funding, Solutions, Industries, acquisitions, tools, education and partner resources belong together—but should not be mashed into one generic website."
+  },
+  "content": {
+    "lead": "An owner searching by industry needs something different from a broker recruiting partners or an acquisition buyer evaluating cash flow.",
+    "sections": [
+      {
+        "id": "reality",
+        "type": "editorial",
+        "heading": "THE REALITY",
+        "body": "An owner searching by industry needs something different from a broker recruiting partners or an acquisition buyer evaluating cash flow."
+      },
+      {
+        "id": "route",
+        "type": "editorial-path",
+        "heading": "HOW TO APPROACH IT",
+        "body": "Each property has a canonical job. Core introduces the network, provides human-readable context and hands off to the correct destination. Unfinished properties remain clearly identified as planned rather than working services."
+      },
+      {
+        "id": "next",
+        "type": "decision-note",
+        "heading": "YOUR NEXT MOVE",
+        "body": "Select the capability closest to the decision you are making. You can return to the network at any point without losing the original objective."
+      }
+    ],
+    "complianceNotes": [
+      "Editorial draft; no invented financial product terms."
+    ]
+  },
+  "cta": {
+    "label": "EXPLORE PROPERTIES",
+    "target": "/explore",
+    "targetKind": "local"
+  },
+  "relatedPaths": [
+    "/explore/funding",
+    "/explore/solutions",
+    "/explore/industries"
+  ],
+  "modulePlan": {
+    "surface": "ecosystem-hub",
+    "modules": [
+      "hero",
+      "reality",
+      "route",
+      "next",
+      "related",
+      "final-cta"
+    ]
+  },
+  "sourceFile": "data/pages/our-network.json"
+}

@@ -1,0 +1,85 @@
+{
+  "schemaVersion": "1.0",
+  "id": "core-contact-general",
+  "slug": "general",
+  "path": "/contact/general",
+  "pageType": "contact-handoff",
+  "family": "contact",
+  "parentPath": "/contact",
+  "navGroups": [
+    "contact"
+  ],
+  "status": "copy-review",
+  "indexStatus": "noindex",
+  "review": {
+    "status": "requires-editorial-review",
+    "lastReviewed": null,
+    "sourceKind": "verified-public-email",
+    "sources": [
+      "https://www.distilledfunding.com"
+    ]
+  },
+  "seo": {
+    "title": "General Inquiries | Distilled Funding & Moonshine Capital",
+    "description": "Questions about the company, content, collaboration or website itself belong in a general business channel.",
+    "canonicalPath": "/contact/general",
+    "intendedCanonicalHost": "https://www.distilledfunding.com",
+    "schemaTypes": [
+      "WebPage",
+      "BreadcrumbList"
+    ],
+    "publishable": true
+  },
+  "hero": {
+    "eyebrow": "CONTACT / GENERAL",
+    "headline": "NOT EVERYTHING NEEDS AN APPLICATION.",
+    "subheadline": "Questions about the company, content, collaboration or website itself belong in a general business channel."
+  },
+  "content": {
+    "lead": "A general inquiry should not request SSNs, bank statements, sensitive financial identifiers or confidential partner credentials.",
+    "sections": [
+      {
+        "id": "reality",
+        "type": "editorial",
+        "heading": "THE REALITY",
+        "body": "A general inquiry should not request SSNs, bank statements, sensitive financial identifiers or confidential partner credentials."
+      },
+      {
+        "id": "route",
+        "type": "editorial-path",
+        "heading": "HOW TO APPROACH IT",
+        "body": "Use the published administrative contact address for ordinary questions. Redirect financing and partner requests to their separate workflows."
+      },
+      {
+        "id": "next",
+        "type": "decision-note",
+        "heading": "YOUR NEXT MOVE",
+        "body": "Start with a short description of the subject and the relevant page or service, if applicable. Keep this channel limited to ordinary business correspondence, and use the dedicated application or partner intake when a request concerns sensitive financial details."
+      }
+    ],
+    "complianceNotes": [
+      "Editorial draft; no invented financial product terms."
+    ]
+  },
+  "cta": {
+    "label": "EMAIL THE TEAM",
+    "target": "mailto:admin@distilledfunding.com",
+    "targetKind": "mailto"
+  },
+  "relatedPaths": [
+    "/contact",
+    "/about"
+  ],
+  "modulePlan": {
+    "surface": "contact-handoff",
+    "modules": [
+      "hero",
+      "reality",
+      "route",
+      "next",
+      "related",
+      "final-cta"
+    ]
+  },
+  "sourceFile": "data/pages/contact--general.json"
+}

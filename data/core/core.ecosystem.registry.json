@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "1.0",
+  "dateVerified": "2026-10-30",
+  "canonicalOwnership": "Core is the corporate discovery shell; specialist sites own their routes; Wix still owns operational features.",
+  "properties": [
+    {
+      "id": "core",
+      "name": "Distilled Core",
+      "kind": "corporate",
+      "intendedHost": "https://www.distilledfunding.com",
+      "previewUrl": null,
+      "status": "local-build-pending",
+      "description": "The company, trust, navigation, featured resources and conversion handoffs."
+    },
+    {
+      "id": "funding",
+      "name": "Funding",
+      "kind": "capital-products",
+      "intendedHost": "https://funding.distilledfunding.com",
+      "previewUrl": "https://funding-distilled.vercel.app",
+      "status": "preview",
+      "description": "Business, real estate and personal financing product information."
+    },
+    {
+      "id": "solutions",
+      "name": "Solutions",
+      "kind": "business-outcomes",
+      "intendedHost": "https://solutions.distilledfunding.com",
+      "previewUrl": "https://distilled-solutions.vercel.app",
+      "status": "preview",
+      "description": "Cash flow, credit, automation, growth, financial operations and readiness."
+    },
+    {
+      "id": "industries",
+      "name": "Industries",
+      "kind": "audience-sectors",
+      "intendedHost": "https://industries.distilledfunding.com",
+      "previewUrl": "https://distilled-industries.vercel.app",
+      "status": "preview",
+      "description": "15 sectors and 100 specific industry field guides."
+    },
+    {
+      "id": "acquire",
+      "name": "Acquire",
+      "kind": "business-transactions",
+      "intendedHost": "https://acquire.distilledfunding.com",
+      "previewUrl": "https://acquire-distilled.vercel.app",
+      "status": "preview-unverified-route",
+      "description": "Buyer/seller workflows, deal analysis, valuations and acquisition discovery."
+    },
+    {
+      "id": "tools",
+      "name": "Tools",
+      "kind": "utility",
+      "intendedHost": "https://tools.distilledfunding.com",
+      "previewUrl": null,
+      "status": "planned",
+      "description": "Calculators, assessments, diagnostics and practical utilities."
+    },
+    {
+      "id": "marketplace",
+      "name": "Marketplace",
+      "kind": "affiliate-services",
+      "intendedHost": "https://marketplace.distilledfunding.com",
+      "previewUrl": null,
+      "status": "planned",
+      "description": "Provider and service discovery, comparisons and recommendations."
+    },
+    {
+      "id": "learn",
+      "name": "Learn",
+      "kind": "education",
+      "intendedHost": "https://learn.distilledfunding.com",
+      "previewUrl": null,
+      "status": "planned",
+      "description": "Learning experiences; existing Wix publication/courses remain active owner for now."
+    },
+    {
+      "id": "partners",
+      "name": "Partners",
+      "kind": "distribution",
+      "intendedHost": "https://app.distilledfunding.com",
+      "previewUrl": null,
+      "status": "planned-owner-review",
+      "description": "Partner recruiting and distribution workflows; current Wix partner page remains a verified entry point."
+    },
+    {
+      "id": "press",
+      "name": "Press",
+      "kind": "editorial",
+      "intendedHost": "https://press.distilledfunding.com",
+      "previewUrl": null,
+      "status": "planned",
+      "description": "Potential publication network; Wix blog remains current editorial owner."
+    },
+    {
+      "id": "wix",
+      "name": "Wix legacy property",
+      "kind": "operations",
+      "intendedHost": "https://www.distilledfunding.com",
+      "previewUrl": null,
+      "status": "live",
+      "description": "Current public site, blog, events, bookings, groups, member services, CMS and application workflows."
+    }
+  ]
+}

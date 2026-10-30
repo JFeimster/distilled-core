@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0",
+  "templateId": "core-canonical-page",
+  "purpose": "Shape contract / example for each editable data/pages/*.json. Copy must live in a single editable record and derived manifests are regenerated.",
+  "page": {
+    "id": "core-PAGE-ID",
+    "slug": "PAGE-SLUG",
+    "path": "/example",
+    "pageType": "corporate-editorial | process | ecosystem-hub | ecosystem-directory | property-gateway | contact-hub | contact-handoff | resource-hub | curated-directory | partner-gateway | trust-hub | legal-handoff | trust-page | flagship",
+    "family": "company | contact | explore | resources | partners | legal | home",
+    "parentPath": "/",
+    "navGroups": [],
+    "status": "copy-review",
+    "indexStatus": "noindex",
+    "review": {
+      "status": "requires-editorial-review",
+      "lastReviewed": null,
+      "sourceKind": "editorial-draft",
+      "sources": []
+    },
+    "seo": {
+      "title": "Distinct title",
+      "description": "Distinct factual summary",
+      "canonicalPath": "/example",
+      "intendedCanonicalHost": "https://www.distilledfunding.com",
+      "schemaTypes": [
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "publishable": false
+    },
+    "hero": {
+      "eyebrow": "SECTION / NUMBER",
+      "headline": "Distinct headline",
+      "subheadline": "Specific value proposition"
+    },
+    "content": {
+      "lead": "Opening paragraph",
+      "sections": [
+        {
+          "id": "reality",
+          "type": "editorial",
+          "heading": "THE REALITY",
+          "body": "Distinct useful copy, not general filler"
+        },
+        {
+          "id": "route",
+          "type": "editorial-path",
+          "heading": "THE ROUTE",
+          "body": "Explained service or process"
+        },
+        {
+          "id": "next",
+          "type": "decision-note",
+          "heading": "THE NEXT MOVE",
+          "body": "Concrete, accurate next step"
+        }
+      ],
+      "complianceNotes": []
+    },
+    "cta": {
+      "label": "ACTION",
+      "target": "/verified-internal",
+      "targetKind": "local"
+    },
+    "relatedPaths": [],
+    "modulePlan": {
+      "surface": "corporate-editorial",
+      "modules": [
+        "hero",
+        "reality",
+        "route",
+        "next",
+        "related",
+        "final-cta"
+      ]
+    },
+    "sourceFile": "data/pages/example.json"
+  }
+}

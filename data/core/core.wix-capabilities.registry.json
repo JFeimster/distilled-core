@@ -1,0 +1,196 @@
+{
+  "schemaVersion": "1.0",
+  "owner": "Wix / Moonshine Capital current production",
+  "rootHost": "https://www.distilledfunding.com",
+  "cutoverRule": "These paths work only while Wix owns the existing root host. Do not assume they survive a switch to Vercel.",
+  "lastInspected": "2026-10-30",
+  "capabilities": [
+    {
+      "id": "wix-about",
+      "label": "About Moonshine Capital",
+      "path": "/about",
+      "currentUrl": "https://www.distilledfunding.com/about",
+      "kind": "public-page",
+      "verification": "verified-navigation",
+      "mode": "link-only",
+      "postCutoverRequiresResolution": true,
+      "safeToExpose": true
+    },
+    {
+      "id": "wix-blog",
+      "label": "Wix Blog",
+      "path": "/blog",
+      "currentUrl": "https://www.distilledfunding.com/blog",
+      "kind": "editorial",
+      "verification": "verified-page",
+      "mode": "link-only",
+      "postCutoverRequiresResolution": true,
+      "safeToExpose": true
+    },
+    {
+      "id": "wix-services",
+      "label": "Current Services",
+      "path": "/services",
+      "currentUrl": "https://www.distilledfunding.com/services",
+      "kind": "service-directory",
+      "verification": "linked-from-navigation",
+      "mode": "link-only",
+      "postCutoverRequiresResolution": true,
+      "safeToExpose": true
+    },
+    {
+      "id": "wix-events",
+      "label": "Events",
+      "path": "/event",
+      "currentUrl": "https://www.distilledfunding.com/event",
+      "kind": "events",
+      "verification": "verified-page-no-current-events",
+      "mode": "link-only",
+      "postCutoverRequiresResolution": true,
+      "safeToExpose": true
+    },
+    {
+      "id": "wix-booking",
+      "label": "Book Online",
+      "path": "/book-online",
+      "currentUrl": "https://www.distilledfunding.com/book-online",
+      "kind": "booking",
+      "verification": "linked-from-navigation-unverified-availability",
+      "mode": "link-only",
+      "postCutoverRequiresResolution": true,
+      "safeToExpose": false
+    },
+    {
+      "id": "wix-groups",
+      "label": "Groups",
+      "path": "/groups",
+      "currentUrl": "https://www.distilledfunding.com/groups",
+      "kind": "community",
+      "verification": "linked-from-navigation-access-restricted",
+      "mode": "link-only",
+      "postCutoverRequiresResolution": true,
+      "safeToExpose": false
+    },
+    {
+      "id": "wix-partners",
+      "label": "Become a Partner",
+      "path": "/partners",
+      "currentUrl": "https://www.distilledfunding.com/partners",
+      "kind": "partner-intake",
+      "verification": "verified-page",
+      "mode": "link-only",
+      "postCutoverRequiresResolution": true,
+      "safeToExpose": true
+    },
+    {
+      "id": "wix-apply",
+      "label": "Funding Application",
+      "path": "/apply",
+      "currentUrl": "https://www.distilledfunding.com/apply",
+      "kind": "application-intake",
+      "verification": "verified-page",
+      "mode": "link-only",
+      "postCutoverRequiresResolution": true,
+      "safeToExpose": true
+    },
+    {
+      "id": "wix-privacy",
+      "label": "Privacy Policy",
+      "path": "/privacy-policy",
+      "currentUrl": "https://www.distilledfunding.com/privacy-policy",
+      "kind": "policy",
+      "verification": "linked-from-navigation-content-not-audited",
+      "mode": "link-only",
+      "postCutoverRequiresResolution": true,
+      "safeToExpose": false
+    },
+    {
+      "id": "wix-courses",
+      "label": "Courses",
+      "path": null,
+      "currentUrl": null,
+      "kind": "learning",
+      "verification": "destination-unverified",
+      "mode": "link-only",
+      "postCutoverRequiresResolution": true,
+      "safeToExpose": false
+    },
+    {
+      "id": "wix-programs",
+      "label": "Programs",
+      "path": null,
+      "currentUrl": null,
+      "kind": "learning",
+      "verification": "destination-unverified",
+      "mode": "link-only",
+      "postCutoverRequiresResolution": true,
+      "safeToExpose": false
+    },
+    {
+      "id": "wix-members",
+      "label": "Members",
+      "path": null,
+      "currentUrl": null,
+      "kind": "member-access",
+      "verification": "destination-unverified",
+      "mode": "link-only",
+      "postCutoverRequiresResolution": true,
+      "safeToExpose": false
+    },
+    {
+      "id": "wix-forms",
+      "label": "Forms and submissions",
+      "path": null,
+      "currentUrl": null,
+      "kind": "forms",
+      "verification": "destination-varies-by-flow",
+      "mode": "link-only",
+      "postCutoverRequiresResolution": true,
+      "safeToExpose": false
+    },
+    {
+      "id": "wix-cms",
+      "label": "CMS collections",
+      "path": null,
+      "currentUrl": null,
+      "kind": "backend",
+      "verification": "not-public-route",
+      "mode": "link-only",
+      "postCutoverRequiresResolution": true,
+      "safeToExpose": false
+    },
+    {
+      "id": "wix-business-data",
+      "label": "Business data",
+      "path": null,
+      "currentUrl": null,
+      "kind": "backend",
+      "verification": "not-public-route",
+      "mode": "link-only",
+      "postCutoverRequiresResolution": true,
+      "safeToExpose": false
+    },
+    {
+      "id": "wix-article-credit-reporting",
+      "label": "Business Credit Reporting Timeline",
+      "path": "/post/business-credit-reporting-timeline",
+      "currentUrl": "https://www.distilledfunding.com/post/business-credit-reporting-timeline",
+      "kind": "editorial",
+      "verification": "verified-page",
+      "mode": "link-only",
+      "postCutoverRequiresResolution": true,
+      "safeToExpose": true
+    },
+    {
+      "id": "wix-article-cash-flow",
+      "label": "AI Cash Flow Stress Test for Local Businesses",
+      "path": "/post/ai-cash-flow-stress-test-for-local-businesses",
+      "currentUrl": "https://www.distilledfunding.com/post/ai-cash-flow-stress-test-for-local-businesses",
+      "kind": "editorial",
+      "verification": "verified-page",
+      "mode": "link-only",
+      "postCutoverRequiresResolution": true,
+      "safeToExpose": true
+    }
+  ]
+}

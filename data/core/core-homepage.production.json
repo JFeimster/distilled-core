@@ -1,0 +1,416 @@
+{
+  "schemaVersion": "1.0",
+  "id": "core-homepage",
+  "path": "/",
+  "hostnamePlan": {
+    "currentOwner": "Wix",
+    "futureOwner": "Vercel distilled-core after explicit cutover",
+    "previewNoindex": true
+  },
+  "template": "flagship-composed",
+  "designRef": "core.design-system.json",
+  "hero": {
+    "eyebrow": "BUILT FOR OPERATORS, NOT SPECTATORS",
+    "headlineLines": [
+      "BUILD IT.",
+      "FUND IT.",
+      "OWN MORE."
+    ],
+    "summary": "Capital, intelligence and infrastructure for people building, buying and operating real businesses.",
+    "primaryCta": {
+      "label": "FIND MY PATH",
+      "target": "/explore"
+    },
+    "secondaryCta": {
+      "label": "HOW IT WORKS",
+      "target": "/how-it-works"
+    },
+    "trustNote": "Educational routing is not financing approval, a binding offer or a guarantee."
+  },
+  "commandCenter": {
+    "id": "operator-command",
+    "type": "mission-routing",
+    "defaultMode": "fund",
+    "modes": [
+      {
+        "id": "fund",
+        "label": "FUND",
+        "heading": "I need capital for the next move.",
+        "description": "Explore business, real-estate, acquisition or other financing paths with the true purpose of funds in mind.",
+        "paths": [
+          {
+            "label": "Funding options",
+            "target": "/explore/funding"
+          },
+          {
+            "label": "Funding questions",
+            "target": "/contact/funding"
+          },
+          {
+            "label": "Industry context",
+            "target": "/explore/industries"
+          }
+        ]
+      },
+      {
+        "id": "build",
+        "label": "BUILD",
+        "heading": "Make the business stronger.",
+        "description": "Explore business credit, growth planning, cash-flow improvements and operating changes before choosing a financial product.",
+        "paths": [
+          {
+            "label": "Business solutions",
+            "target": "/explore/solutions"
+          },
+          {
+            "label": "Company systems",
+            "target": "/explore/tools"
+          },
+          {
+            "label": "Industry field guides",
+            "target": "/explore/industries"
+          }
+        ]
+      },
+      {
+        "id": "buy",
+        "label": "BUY",
+        "heading": "Work the deal, not the fantasy.",
+        "description": "Explore valuations, buyer readiness, due diligence, deal structure and the financing stack.",
+        "paths": [
+          {
+            "label": "Acquisition desk",
+            "target": "/explore/acquisitions"
+          },
+          {
+            "label": "Capital options",
+            "target": "/explore/funding"
+          },
+          {
+            "label": "Guides",
+            "target": "/resources/guides"
+          }
+        ]
+      },
+      {
+        "id": "operate",
+        "label": "OPERATE",
+        "heading": "Get the financial machine under control.",
+        "description": "Understand cash-flow pressure, financial operations, processes and the tools that support better decisions.",
+        "paths": [
+          {
+            "label": "Operating solutions",
+            "target": "/explore/solutions"
+          },
+          {
+            "label": "Tools",
+            "target": "/resources/tools"
+          },
+          {
+            "label": "Field notes",
+            "target": "/resources/articles"
+          }
+        ]
+      },
+      {
+        "id": "offer",
+        "label": "OFFER",
+        "heading": "Bring capital into your relationships.",
+        "description": "Explore broker, referral, partner and agency pathways using existing confirmed participation and inquiry processes.",
+        "paths": [
+          {
+            "label": "Partner gateway",
+            "target": "/partners"
+          },
+          {
+            "label": "Partner inquiries",
+            "target": "/contact/partners"
+          },
+          {
+            "label": "How the network works",
+            "target": "/our-network"
+          }
+        ]
+      }
+    ],
+    "noScores": true,
+    "noFabricatedMetrics": true,
+    "clientSideOnly": true,
+    "storedInputs": false
+  },
+  "sections": [
+    {
+      "index": "01",
+      "id": "flagship-hero",
+      "type": "hero",
+      "eyebrow": "BUILT FOR OPERATORS, NOT SPECTATORS.",
+      "headline": "BUILD IT. FUND IT. OWN MORE.",
+      "copy": "Capital, intelligence and infrastructure for the next move. This is where business owners, deal buyers and funding professionals find the right lane without starting with a lender’s product list.",
+      "ctas": [
+        {
+          "label": "FIND MY PATH",
+          "target": "/explore"
+        },
+        {
+          "label": "SEE HOW IT WORKS",
+          "target": "/how-it-works"
+        }
+      ]
+    },
+    {
+      "index": "02",
+      "id": "operator-console",
+      "type": "diagnostic",
+      "eyebrow": "OPERATOR COMMAND / MISSION SELECTOR",
+      "headline": "WHAT ARE YOU TRYING TO MAKE HAPPEN?",
+      "copy": "Choose FUND, BUILD, BUY, OPERATE or OFFER. Update the next-step card and route recommendations immediately. These are editorial pathways, not underwriting or financial offers.",
+      "ctas": [
+        {
+          "label": "CHOOSE A MISSION",
+          "target": "/explore"
+        }
+      ]
+    },
+    {
+      "index": "03",
+      "id": "mission-bento",
+      "type": "mission-router",
+      "eyebrow": "YOUR MOVE / START HERE",
+      "headline": "PICK THE MISSION. WE’LL SHOW THE ROUTE.",
+      "copy": "Money for the business, cash-flow repairs, stronger credit, an acquisition, useful technology or a distribution opportunity: different moves, different specialists.",
+      "ctas": [
+        {
+          "label": "EXPLORE ALL PATHS",
+          "target": "/explore"
+        }
+      ]
+    },
+    {
+      "index": "04",
+      "id": "ecosystem-grid",
+      "type": "network",
+      "eyebrow": "THE DISTILLED NETWORK",
+      "headline": "ONE FLAGSHIP. SPECIALISTS FOR THE REST.",
+      "copy": "Funding owns products; Solutions owns operating outcomes; Industries owns vertical context; Acquire owns transactions. Tools and Marketplace add useful functionality as their destinations go live.",
+      "ctas": [
+        {
+          "label": "EXPLORE THE NETWORK",
+          "target": "/our-network"
+        }
+      ]
+    },
+    {
+      "index": "05",
+      "id": "funding-lanes",
+      "type": "capital-preview",
+      "eyebrow": "THE CAPITAL SIDE",
+      "headline": "GOOD CAPITAL HAS A JOB TO DO.",
+      "copy": "Working capital, lines of credit, equipment, acquisition or property financing may be relevant for different purposes. Compare options through the dedicated Funding property.",
+      "ctas": [
+        {
+          "label": "FIND FUNDING OPTIONS",
+          "target": "/explore/funding"
+        }
+      ]
+    },
+    {
+      "index": "06",
+      "id": "decision-process",
+      "type": "process",
+      "eyebrow": "THE PROCESS",
+      "headline": "START WITH THE QUESTION, NOT THE APPLICATION.",
+      "copy": "Name the goal. Confirm the facts. Compare routes. Test the economics. Take the action that actually advances the business.",
+      "ctas": [
+        {
+          "label": "HOW IT WORKS",
+          "target": "/how-it-works"
+        }
+      ]
+    },
+    {
+      "index": "07",
+      "id": "tool-rack",
+      "type": "tool-preview",
+      "eyebrow": "THE BLACK LAB",
+      "headline": "RUN THE NUMBERS BEFORE THEY RUN YOU.",
+      "copy": "Surface verified calculators and assessments with their assumptions and limits. Do not claim readiness scores, offer eligibility or live finance data that the site has not calculated.",
+      "ctas": [
+        {
+          "label": "EXPLORE TOOLS",
+          "target": "/resources/tools"
+        }
+      ]
+    },
+    {
+      "index": "08",
+      "id": "sector-switchboard",
+      "type": "industries-preview",
+      "eyebrow": "WHO IT IS FOR",
+      "headline": "DIFFERENT BUSINESSES. DIFFERENT CASH CYCLES.",
+      "copy": "From contractors waiting on progress payments to ecommerce merchants paying for inventory, the industry changes the problem. Find the operating model that matches yours.",
+      "ctas": [
+        {
+          "label": "FIND YOUR INDUSTRY",
+          "target": "/explore/industries"
+        }
+      ]
+    },
+    {
+      "index": "09",
+      "id": "acquire-feature",
+      "type": "ownership",
+      "eyebrow": "BUY / SELL / OWN",
+      "headline": "THE ASKING PRICE IS NOT THE WHOLE DEAL.",
+      "copy": "Understand valuation assumptions, diligence questions, capital structures and what happens after closing. Continue into the Acquire platform for the full workflow.",
+      "ctas": [
+        {
+          "label": "WORK THE DEAL",
+          "target": "/explore/acquisitions"
+        }
+      ]
+    },
+    {
+      "index": "10",
+      "id": "marketplace-preview",
+      "type": "service-discovery",
+      "eyebrow": "THE BUSINESS STACK",
+      "headline": "BETTER SYSTEMS. FEWER RANDOM SUBSCRIPTIONS.",
+      "copy": "Accounting, banking, CRM, marketing and payments providers should earn a place in your workflow. The marketplace is planned; use the existing services destination in the meantime.",
+      "ctas": [
+        {
+          "label": "EXPLORE BUSINESS SERVICES",
+          "target": "/explore/marketplace"
+        }
+      ]
+    },
+    {
+      "index": "11",
+      "id": "partner-stage",
+      "type": "distribution",
+      "eyebrow": "THE DISTRIBUTION SIDE",
+      "headline": "WHAT IF YOU WERE THE PERSON BUSINESSES CALLED?",
+      "copy": "Business owners already ask trusted professionals where to find capital. Explore referral, professional partner and agency opportunities without implying guaranteed earnings.",
+      "ctas": [
+        {
+          "label": "EXPLORE PARTNERS",
+          "target": "/partners"
+        }
+      ]
+    },
+    {
+      "index": "12",
+      "id": "field-notes",
+      "type": "editorial",
+      "eyebrow": "INTELLIGENCE / FIELD NOTES",
+      "headline": "LEARN THE GAME BEFORE THE GAME CHARGES TUITION.",
+      "copy": "Feature the best existing articles, guides and explainers. The Wix blog retains the original publication URLs, dates and editorial ownership.",
+      "ctas": [
+        {
+          "label": "READ THE LATEST ARTICLES",
+          "target": "/resources/articles"
+        }
+      ]
+    },
+    {
+      "index": "13",
+      "id": "wix-capabilities",
+      "type": "service-handoff",
+      "eyebrow": "YOUR EXISTING DESTINATIONS",
+      "headline": "THE CONTENT AND COMMUNITY DON’T DISAPPEAR.",
+      "copy": "Blog, events, courses, groups, member services and bookings remain owned by Wix or their actual current systems until the cutover has a verified continuity plan.",
+      "ctas": [
+        {
+          "label": "EXPLORE RESOURCES",
+          "target": "/resources"
+        }
+      ]
+    },
+    {
+      "index": "14",
+      "id": "final-action",
+      "type": "conversion",
+      "eyebrow": "YOUR MOVE / 14",
+      "headline": "WHAT ARE YOU TRYING TO BUILD?",
+      "copy": "Get funding, strengthen the business, buy one or help other operators access capital. Choose the route that matches the job.",
+      "ctas": [
+        {
+          "label": "GET STARTED",
+          "target": "/explore"
+        }
+      ]
+    }
+  ],
+  "missionCards": [
+    {
+      "label": "FUND",
+      "title": "I NEED CAPITAL.",
+      "description": "Working capital, equipment, expansion and other financing needs.",
+      "target": "/explore/funding",
+      "accent": "orange"
+    },
+    {
+      "label": "BUILD",
+      "title": "I WANT A STRONGER BUSINESS.",
+      "description": "Cash flow, business credit, growth planning and financial operations.",
+      "target": "/explore/solutions",
+      "accent": "blue"
+    },
+    {
+      "label": "BUY",
+      "title": "I AM BUYING A BUSINESS.",
+      "description": "Deal economics, valuation, diligence and acquisition capital.",
+      "target": "/explore/acquisitions",
+      "accent": "lime"
+    },
+    {
+      "label": "INDUSTRY",
+      "title": "MY BUSINESS IS DIFFERENT.",
+      "description": "Guidance grounded in how your industry earns, spends and collects.",
+      "target": "/explore/industries",
+      "accent": "paper"
+    },
+    {
+      "label": "TOOLS",
+      "title": "I WANT TO RUN THE NUMBERS.",
+      "description": "Verified calculators, checklists and practical diagnostic utilities.",
+      "target": "/resources/tools",
+      "accent": "ink"
+    },
+    {
+      "label": "OFFER",
+      "title": "I WANT TO OFFER FUNDING.",
+      "description": "Professional referrals, partner pathways and distribution.",
+      "target": "/partners",
+      "accent": "orange"
+    },
+    {
+      "label": "SERVICES",
+      "title": "I NEED BETTER BUSINESS TOOLS.",
+      "description": "Compare categories and discover useful services and software.",
+      "target": "/explore/marketplace",
+      "accent": "paper"
+    },
+    {
+      "label": "LEARN",
+      "title": "I NEED TO UNDERSTAND THIS.",
+      "description": "Articles, field guides, classes and operating playbooks.",
+      "target": "/explore/learn",
+      "accent": "lime"
+    }
+  ],
+  "contentOwnership": {
+    "editorial": "Wix current blog",
+    "capital": "Funding",
+    "businessOutcome": "Solutions",
+    "industry": "Industries",
+    "transaction": "Acquire",
+    "company": "Core"
+  },
+  "review": {
+    "status": "copy-review",
+    "lastReviewed": null,
+    "source": "Operator Capital design briefs + verified Wix public navigation",
+    "note": "The source HTML mockups have invented scores, fictional snapshots and some dummy links; DO NOT carry those unverified claims forward."
+  },
+  "indexStatus": "noindex"
+}

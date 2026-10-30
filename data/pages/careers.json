@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.0",
+  "id": "core-careers",
+  "slug": "careers",
+  "path": "/careers",
+  "pageType": "opportunity-directory",
+  "family": "company",
+  "parentPath": "/",
+  "navGroups": [
+    "company"
+  ],
+  "status": "integration-review",
+  "indexStatus": "noindex",
+  "review": {
+    "status": "requires-editorial-review",
+    "lastReviewed": null,
+    "sourceKind": "editorial-draft",
+    "sources": []
+  },
+  "seo": {
+    "title": "Careers & Opportunities | Distilled Funding & Moonshine Capital",
+    "description": "Interested in business capital, financial operations, software, education or partner distribution? Start by understanding which type of opportunity is actually available.",
+    "canonicalPath": "/careers",
+    "intendedCanonicalHost": "https://www.distilledfunding.com",
+    "schemaTypes": [
+      "WebPage",
+      "BreadcrumbList"
+    ],
+    "publishable": true
+  },
+  "hero": {
+    "eyebrow": "THE TEAM / OPPORTUNITIES",
+    "headline": "WORK THAT HELPS OPERATORS MOVE.",
+    "subheadline": "Interested in business capital, financial operations, software, education or partner distribution? Start by understanding which type of opportunity is actually available."
+  },
+  "content": {
+    "lead": "A careers page must not suggest the company is hiring for positions that have not been approved or posted.",
+    "sections": [
+      {
+        "id": "reality",
+        "type": "editorial",
+        "heading": "THE REALITY",
+        "body": "A careers page must not suggest the company is hiring for positions that have not been approved or posted."
+      },
+      {
+        "id": "route",
+        "type": "editorial-path",
+        "heading": "HOW TO APPROACH IT",
+        "body": "List verified open roles when there are any. Separately explain partner/affiliate opportunities, which are not automatically employee positions and may have different terms."
+      },
+      {
+        "id": "next",
+        "type": "decision-note",
+        "heading": "YOUR NEXT MOVE",
+        "body": "If no vacancies are published, state that no verified current openings are listed and route interested parties to the appropriate general contact or partner page."
+      }
+    ],
+    "complianceNotes": [
+      "Editorial draft; no invented financial product terms."
+    ]
+  },
+  "cta": {
+    "label": "EXPLORE PARTNERSHIPS",
+    "target": "/partners",
+    "targetKind": "local"
+  },
+  "relatedPaths": [
+    "/contact/general",
+    "/our-story"
+  ],
+  "modulePlan": {
+    "surface": "opportunity-directory",
+    "modules": [
+      "hero",
+      "reality",
+      "route",
+      "next",
+      "related",
+      "final-cta"
+    ]
+  },
+  "sourceFile": "data/pages/careers.json"
+}

@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.0",
+  "id": "core-resources-tools",
+  "slug": "tools",
+  "path": "/resources/tools",
+  "pageType": "curated-directory",
+  "family": "resources",
+  "parentPath": "/resources",
+  "navGroups": [
+    "resources"
+  ],
+  "status": "copy-review",
+  "indexStatus": "noindex",
+  "review": {
+    "status": "requires-editorial-review",
+    "lastReviewed": null,
+    "sourceKind": "editorial-draft",
+    "sources": []
+  },
+  "seo": {
+    "title": "Tools Directory | Distilled Funding & Moonshine Capital",
+    "description": "Calculators, checklists and assessments should make financial decisions more legible.",
+    "canonicalPath": "/resources/tools",
+    "intendedCanonicalHost": "https://www.distilledfunding.com",
+    "schemaTypes": [
+      "WebPage",
+      "BreadcrumbList"
+    ],
+    "publishable": true
+  },
+  "hero": {
+    "eyebrow": "FIELD NOTES / TOOLS",
+    "headline": "THE BEST QUESTION IS ONE YOU CAN TEST.",
+    "subheadline": "Calculators, checklists and assessments should make financial decisions more legible."
+  },
+  "content": {
+    "lead": "Some tools are simple arithmetic; others require carefully defined assumptions and user inputs. None should imply a funding approval without actual underwriting.",
+    "sections": [
+      {
+        "id": "reality",
+        "type": "editorial",
+        "heading": "THE REALITY",
+        "body": "Some tools are simple arithmetic; others require carefully defined assumptions and user inputs. None should imply a funding approval without actual underwriting."
+      },
+      {
+        "id": "route",
+        "type": "editorial-path",
+        "heading": "HOW TO APPROACH IT",
+        "body": "This directory must source tools from verified destinations, include the job each performs and distinguish working tools from planned concepts."
+      },
+      {
+        "id": "next",
+        "type": "decision-note",
+        "heading": "YOUR NEXT MOVE",
+        "body": "Start with a concrete decision: debt service, working-capital pressure, deal value, cost of capital or funding readiness."
+      }
+    ],
+    "complianceNotes": [
+      "Editorial draft; no invented financial product terms."
+    ]
+  },
+  "cta": {
+    "label": "EXPLORE THE NETWORK",
+    "target": "/explore",
+    "targetKind": "local"
+  },
+  "relatedPaths": [
+    "/explore/tools",
+    "/resources"
+  ],
+  "modulePlan": {
+    "surface": "curated-directory",
+    "modules": [
+      "hero",
+      "reality",
+      "route",
+      "next",
+      "related",
+      "final-cta"
+    ]
+  },
+  "sourceFile": "data/pages/resources--tools.json"
+}

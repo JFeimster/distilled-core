@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0",
+  "id": "core-how-it-works",
+  "slug": "how-it-works",
+  "path": "/how-it-works",
+  "pageType": "process",
+  "family": "company",
+  "parentPath": "/",
+  "navGroups": [
+    "company"
+  ],
+  "status": "copy-review",
+  "indexStatus": "noindex",
+  "review": {
+    "status": "requires-editorial-review",
+    "lastReviewed": null,
+    "sourceKind": "editorial-draft",
+    "sources": []
+  },
+  "seo": {
+    "title": "How It Works | Distilled Funding & Moonshine Capital",
+    "description": "Start with the outcome, compare realistic options, understand the economics and proceed only when the next step makes sense.",
+    "canonicalPath": "/how-it-works",
+    "intendedCanonicalHost": "https://www.distilledfunding.com",
+    "schemaTypes": [
+      "WebPage",
+      "BreadcrumbList"
+    ],
+    "publishable": true
+  },
+  "hero": {
+    "eyebrow": "THE PROCESS / 04",
+    "headline": "TELL US THE MOVE. THEN FIND THE ROUTE.",
+    "subheadline": "Start with the outcome, compare realistic options, understand the economics and proceed only when the next step makes sense."
+  },
+  "content": {
+    "lead": "Choosing a capital product before defining the job can create needless cost, bad timing or an avoidable mismatch.",
+    "sections": [
+      {
+        "id": "reality",
+        "type": "editorial",
+        "heading": "THE REALITY",
+        "body": "Choosing a capital product before defining the job can create needless cost, bad timing or an avoidable mismatch."
+      },
+      {
+        "id": "route",
+        "type": "editorial-path",
+        "heading": "HOW TO APPROACH IT",
+        "body": "Step 1: choose the mission. Step 2: review the relevant Funding, Solutions, Industries, Acquire or Tools experience. Step 3: gather facts and test assumptions. Step 4: follow the verified intake or contact path when ready."
+      },
+      {
+        "id": "next",
+        "type": "decision-note",
+        "heading": "YOUR NEXT MOVE",
+        "body": "A routing recommendation is education, not a loan offer or underwriting result. Product requirements and decisions depend on a specific provider and application."
+      }
+    ],
+    "complianceNotes": [
+      "Editorial draft; no invented financial product terms."
+    ]
+  },
+  "cta": {
+    "label": "CHOOSE YOUR MISSION",
+    "target": "/explore",
+    "targetKind": "local"
+  },
+  "relatedPaths": [
+    "/explore/funding",
+    "/explore/solutions",
+    "/contact"
+  ],
+  "modulePlan": {
+    "surface": "process",
+    "modules": [
+      "hero",
+      "reality",
+      "route",
+      "next",
+      "related",
+      "final-cta"
+    ]
+  },
+  "sourceFile": "data/pages/how-it-works.json"
+}

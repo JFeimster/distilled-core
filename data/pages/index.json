@@ -1,0 +1,90 @@
+{
+  "schemaVersion": "1.0",
+  "id": "core-home",
+  "slug": "home",
+  "path": "/",
+  "pageType": "flagship",
+  "family": "home",
+  "parentPath": null,
+  "navGroups": [
+    "home"
+  ],
+  "status": "copy-review",
+  "indexStatus": "noindex",
+  "review": {
+    "status": "requires-editorial-review",
+    "lastReviewed": null,
+    "sourceKind": "editorial-draft",
+    "sources": []
+  },
+  "seo": {
+    "title": "Home | Distilled Funding & Moonshine Capital",
+    "description": "Capital access, tools, operating intelligence, and people who understand what it takes to move a business forward.",
+    "canonicalPath": "/",
+    "intendedCanonicalHost": "https://www.distilledfunding.com",
+    "schemaTypes": [
+      "WebSite",
+      "Organization",
+      "WebPage"
+    ],
+    "publishable": true
+  },
+  "hero": {
+    "eyebrow": "CAPITAL // INTELLIGENCE // INFRASTRUCTURE",
+    "headline": "BUILD IT. FUND IT. OWN MORE.",
+    "subheadline": "Capital access, tools, operating intelligence, and people who understand what it takes to move a business forward."
+  },
+  "content": {
+    "lead": "Finding the next useful move should not require understanding the entire financing industry. Start with what you want to accomplish.",
+    "sections": [
+      {
+        "id": "reality",
+        "type": "editorial",
+        "heading": "THE REALITY",
+        "body": "Finding the next useful move should not require understanding the entire financing industry. Start with what you want to accomplish."
+      },
+      {
+        "id": "route",
+        "type": "editorial-path",
+        "heading": "HOW TO APPROACH IT",
+        "body": "Choose a mission: fund, build, buy, operate or offer. Core routes you into the relevant specialist property without pretending to underwrite your business."
+      },
+      {
+        "id": "next",
+        "type": "decision-note",
+        "heading": "YOUR NEXT MOVE",
+        "body": "Get to the right next step: understand the options, pressure-test the numbers and choose a route grounded in your actual situation."
+      }
+    ],
+    "complianceNotes": [
+      "Editorial draft; no invented financial product terms."
+    ]
+  },
+  "cta": {
+    "label": "FIND MY PATH",
+    "target": "/explore",
+    "targetKind": "local"
+  },
+  "relatedPaths": [
+    "/how-it-works",
+    "/explore",
+    "/our-network"
+  ],
+  "modulePlan": {
+    "surface": "flagship",
+    "modules": [
+      "flagship-hero",
+      "operator-console",
+      "mission-router",
+      "network",
+      "funding-pathways",
+      "industry-finder",
+      "tools",
+      "partnerships",
+      "editorial",
+      "wix-capabilities",
+      "trust-footer"
+    ]
+  },
+  "sourceFile": "data/pages/index.json"
+}

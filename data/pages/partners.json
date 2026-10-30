@@ -1,0 +1,85 @@
+{
+  "schemaVersion": "1.0",
+  "id": "core-partners",
+  "slug": "partners",
+  "path": "/partners",
+  "pageType": "partner-gateway",
+  "family": "partners",
+  "parentPath": "/",
+  "navGroups": [
+    "partners"
+  ],
+  "status": "copy-review",
+  "indexStatus": "noindex",
+  "review": {
+    "status": "requires-editorial-review",
+    "lastReviewed": null,
+    "sourceKind": "wix-partners-adapted",
+    "sources": [
+      "https://www.distilledfunding.com/partners"
+    ]
+  },
+  "seo": {
+    "title": "Partner With Us | Distilled Funding & Moonshine Capital",
+    "description": "Bring better funding conversations into the relationships you already serve—or explore building a referral and broker business.",
+    "canonicalPath": "/partners",
+    "intendedCanonicalHost": "https://www.distilledfunding.com",
+    "schemaTypes": [
+      "WebPage",
+      "BreadcrumbList"
+    ],
+    "publishable": true
+  },
+  "hero": {
+    "eyebrow": "DISTRIBUTION / 01",
+    "headline": "BE THE PERSON BUSINESSES CALL.",
+    "subheadline": "Bring better funding conversations into the relationships you already serve—or explore building a referral and broker business."
+  },
+  "content": {
+    "lead": "Accountants, consultants, service providers and business communities can encounter funding needs long before someone fills out an application.",
+    "sections": [
+      {
+        "id": "reality",
+        "type": "editorial",
+        "heading": "THE REALITY",
+        "body": "Accountants, consultants, service providers and business communities can encounter funding needs long before someone fills out an application."
+      },
+      {
+        "id": "route",
+        "type": "editorial-path",
+        "heading": "HOW TO APPROACH IT",
+        "body": "The partner gateway introduces referral, professional-channel and agency pathways. The actual enrollment, training, compensation and tracking workflows remain with their verified operational owner."
+      },
+      {
+        "id": "next",
+        "type": "decision-note",
+        "heading": "YOUR NEXT MOVE",
+        "body": "Participation and earning potential depend on the applicable program and its terms. Core must not promise commissions, timing or residual income."
+      }
+    ],
+    "complianceNotes": [
+      "Editorial draft; no invented financial product terms."
+    ]
+  },
+  "cta": {
+    "label": "OPEN PARTNER INFORMATION",
+    "target": "cap:wix-partners",
+    "targetKind": "capability"
+  },
+  "relatedPaths": [
+    "/contact/partners",
+    "/explore/partners"
+  ],
+  "modulePlan": {
+    "surface": "partner-gateway",
+    "modules": [
+      "hero",
+      "reality",
+      "route",
+      "next",
+      "related",
+      "final-cta"
+    ]
+  },
+  "sourceFile": "data/pages/partners.json"
+}

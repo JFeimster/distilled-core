@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.0",
+  "id": "core-explore-partners",
+  "slug": "partners",
+  "path": "/explore/partners",
+  "pageType": "property-gateway",
+  "family": "explore",
+  "parentPath": "/explore",
+  "navGroups": [
+    "explore"
+  ],
+  "status": "copy-review",
+  "indexStatus": "noindex",
+  "review": {
+    "status": "requires-editorial-review",
+    "lastReviewed": null,
+    "sourceKind": "editorial-draft",
+    "sources": []
+  },
+  "seo": {
+    "title": "Partners | Distilled Funding & Moonshine Capital",
+    "description": "Referral professionals and brokers often need a reliable place to learn how opportunities are handled and where a partner inquiry belongs.",
+    "canonicalPath": "/explore/partners",
+    "intendedCanonicalHost": "https://www.distilledfunding.com",
+    "schemaTypes": [
+      "WebPage",
+      "BreadcrumbList"
+    ],
+    "publishable": true
+  },
+  "hero": {
+    "eyebrow": "NETWORK / DISTRIBUTION",
+    "headline": "MAKE CAPITAL A CAPABILITY.",
+    "subheadline": "Referral professionals and brokers often need a reliable place to learn how opportunities are handled and where a partner inquiry belongs."
+  },
+  "content": {
+    "lead": "Partner distribution is not the same experience as seeking a loan for your own business.",
+    "sections": [
+      {
+        "id": "reality",
+        "type": "editorial",
+        "heading": "THE REALITY",
+        "body": "Partner distribution is not the same experience as seeking a loan for your own business. Referral opportunities may involve different training, eligibility, compliance and compensation rules, so current program terms should be verified before participation."
+      },
+      {
+        "id": "route",
+        "type": "editorial-path",
+        "heading": "HOW TO APPROACH IT",
+        "body": "Core explains the available partner pathways, then hands qualified interest to the designated partner property or existing Wix partner page after verification."
+      },
+      {
+        "id": "next",
+        "type": "decision-note",
+        "heading": "YOUR NEXT MOVE",
+        "body": "Review participation terms and the support model; never interpret illustrative compensation as a promise of earnings."
+      }
+    ],
+    "complianceNotes": [
+      "Editorial draft; no invented financial product terms."
+    ]
+  },
+  "cta": {
+    "label": "EXPLORE PARTNERS",
+    "target": "/partners",
+    "targetKind": "local"
+  },
+  "relatedPaths": [
+    "/contact/partners",
+    "/our-network"
+  ],
+  "modulePlan": {
+    "surface": "property-gateway",
+    "modules": [
+      "hero",
+      "reality",
+      "route",
+      "next",
+      "related",
+      "final-cta"
+    ]
+  },
+  "sourceFile": "data/pages/explore--partners.json"
+}

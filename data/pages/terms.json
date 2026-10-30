@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.0",
+  "id": "core-terms",
+  "slug": "terms",
+  "path": "/terms",
+  "pageType": "legal-handoff",
+  "family": "legal",
+  "parentPath": "/legal",
+  "navGroups": [
+    "legal"
+  ],
+  "status": "legal-review-required",
+  "indexStatus": "noindex",
+  "review": {
+    "status": "requires-legal-review",
+    "lastReviewed": null,
+    "sourceKind": "editorial-draft",
+    "sources": []
+  },
+  "seo": {
+    "title": "Terms of Use | Distilled Funding & Moonshine Capital",
+    "description": "Review the terms governing use of the appropriate service or application.",
+    "canonicalPath": "/terms",
+    "intendedCanonicalHost": "https://www.distilledfunding.com",
+    "schemaTypes": [
+      "WebPage",
+      "BreadcrumbList"
+    ],
+    "publishable": false
+  },
+  "hero": {
+    "eyebrow": "TRUST / TERMS",
+    "headline": "CLEAR TERMS BEFORE YOU COMMIT.",
+    "subheadline": "Review the terms governing use of the appropriate service or application."
+  },
+  "content": {
+    "lead": "The company website, Wix member services, external calculators and provider intake experiences may each have different governing terms.",
+    "sections": [
+      {
+        "id": "reality",
+        "type": "editorial",
+        "heading": "THE REALITY",
+        "body": "The company website, Wix member services, external calculators and provider intake experiences may each have different governing terms."
+      },
+      {
+        "id": "route",
+        "type": "editorial-path",
+        "heading": "HOW TO APPROACH IT",
+        "body": "Use a verified canonical Terms of Use destination when one is confirmed. Do not create binding legal terms from AI-drafted prose or assume the current Wix terms will migrate automatically."
+      },
+      {
+        "id": "next",
+        "type": "decision-note",
+        "heading": "YOUR NEXT MOVE",
+        "body": "Keep this page blocked from publication as a legal policy until reviewed and approved by the appropriate owner."
+      }
+    ],
+    "complianceNotes": [
+      "Legal content not supplied. Do not publish a generated legal contract. Source and approval required."
+    ]
+  },
+  "cta": {
+    "label": "BACK TO LEGAL",
+    "target": "/legal",
+    "targetKind": "local"
+  },
+  "relatedPaths": [
+    "/privacy",
+    "/disclosures"
+  ],
+  "modulePlan": {
+    "surface": "legal-handoff",
+    "modules": [
+      "hero",
+      "reality",
+      "route",
+      "next",
+      "related",
+      "final-cta"
+    ]
+  },
+  "sourceFile": "data/pages/terms.json"
+}

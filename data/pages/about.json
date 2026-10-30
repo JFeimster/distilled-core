@@ -1,0 +1,86 @@
+{
+  "schemaVersion": "1.0",
+  "id": "core-about",
+  "slug": "about",
+  "path": "/about",
+  "pageType": "corporate-editorial",
+  "family": "company",
+  "parentPath": "/",
+  "navGroups": [
+    "company"
+  ],
+  "status": "copy-review",
+  "indexStatus": "noindex",
+  "review": {
+    "status": "requires-editorial-review",
+    "lastReviewed": null,
+    "sourceKind": "wix-about-adapted",
+    "sources": [
+      "https://www.distilledfunding.com/about"
+    ]
+  },
+  "seo": {
+    "title": "About | Distilled Funding & Moonshine Capital",
+    "description": "Moonshine Capital and Distilled Funding connect business owners with funding routes, practical tools and ways to make stronger financial decisions.",
+    "canonicalPath": "/about",
+    "intendedCanonicalHost": "https://www.distilledfunding.com",
+    "schemaTypes": [
+      "WebPage",
+      "BreadcrumbList"
+    ],
+    "publishable": true
+  },
+  "hero": {
+    "eyebrow": "THE COMPANY / 01",
+    "headline": "CAPITAL IS THE START. THE BUSINESS IS THE POINT.",
+    "subheadline": "Moonshine Capital and Distilled Funding connect business owners with funding routes, practical tools and ways to make stronger financial decisions."
+  },
+  "content": {
+    "lead": "Many owners begin by asking for a loan when the bigger question is what the money needs to accomplish and what it will cost to get there.",
+    "sections": [
+      {
+        "id": "reality",
+        "type": "editorial",
+        "heading": "THE REALITY",
+        "body": "Many owners begin by asking for a loan when the bigger question is what the money needs to accomplish and what it will cost to get there."
+      },
+      {
+        "id": "route",
+        "type": "editorial-path",
+        "heading": "HOW TO APPROACH IT",
+        "body": "Our approach combines product discovery with context: business model, timing, operating constraints, tradeoffs and the next useful step. Funding, Solutions, Industries and other specialist sites each handle a different part of that decision."
+      },
+      {
+        "id": "next",
+        "type": "decision-note",
+        "heading": "YOUR NEXT MOVE",
+        "body": "Start with a clear objective. Explore the appropriate route, understand how it works and decide when a conversation or application is useful."
+      }
+    ],
+    "complianceNotes": [
+      "Editorial draft; no invented financial product terms."
+    ]
+  },
+  "cta": {
+    "label": "EXPLORE THE NETWORK",
+    "target": "/our-network",
+    "targetKind": "local"
+  },
+  "relatedPaths": [
+    "/our-story",
+    "/mission",
+    "/how-it-works"
+  ],
+  "modulePlan": {
+    "surface": "corporate-editorial",
+    "modules": [
+      "hero",
+      "reality",
+      "route",
+      "next",
+      "related",
+      "final-cta"
+    ]
+  },
+  "sourceFile": "data/pages/about.json"
+}

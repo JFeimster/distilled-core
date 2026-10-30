@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.0",
+  "id": "core-accessibility",
+  "slug": "accessibility",
+  "path": "/accessibility",
+  "pageType": "trust-page",
+  "family": "legal",
+  "parentPath": "/legal",
+  "navGroups": [
+    "legal"
+  ],
+  "status": "copy-review",
+  "indexStatus": "noindex",
+  "review": {
+    "status": "requires-legal-review",
+    "lastReviewed": null,
+    "sourceKind": "editorial-draft",
+    "sources": []
+  },
+  "seo": {
+    "title": "Accessibility | Distilled Funding & Moonshine Capital",
+    "description": "Distilled Core aims to provide an accessible path to company information and connected resources.",
+    "canonicalPath": "/accessibility",
+    "intendedCanonicalHost": "https://www.distilledfunding.com",
+    "schemaTypes": [
+      "WebPage",
+      "BreadcrumbList"
+    ],
+    "publishable": false
+  },
+  "hero": {
+    "eyebrow": "TRUST / ACCESS",
+    "headline": "THE SITE SHOULD WORK FOR EVERYONE.",
+    "subheadline": "Distilled Core aims to provide an accessible path to company information and connected resources."
+  },
+  "content": {
+    "lead": "People should be able to operate core navigation, understand page content and follow links without relying exclusively on a mouse or visual styling.",
+    "sections": [
+      {
+        "id": "reality",
+        "type": "editorial",
+        "heading": "THE REALITY",
+        "body": "People should be able to operate core navigation, understand page content and follow links without relying exclusively on a mouse or visual styling."
+      },
+      {
+        "id": "route",
+        "type": "editorial-path",
+        "heading": "HOW TO APPROACH IT",
+        "body": "Implement semantic HTML, keyboard navigation, focus visibility, readable contrast, reduced-motion support and usable form handoffs. Test and document issues rather than claiming a formal certification."
+      },
+      {
+        "id": "next",
+        "type": "decision-note",
+        "heading": "YOUR NEXT MOVE",
+        "body": "If a page or connected experience creates an access problem, use the general contact channel to describe the issue and relevant URL."
+      }
+    ],
+    "complianceNotes": [
+      "Legal content not supplied. Do not publish a generated legal contract. Source and approval required."
+    ]
+  },
+  "cta": {
+    "label": "CONTACT THE TEAM",
+    "target": "/contact/general",
+    "targetKind": "local"
+  },
+  "relatedPaths": [
+    "/legal",
+    "/contact"
+  ],
+  "modulePlan": {
+    "surface": "trust-page",
+    "modules": [
+      "hero",
+      "reality",
+      "route",
+      "next",
+      "related",
+      "final-cta"
+    ]
+  },
+  "sourceFile": "data/pages/accessibility.json"
+}

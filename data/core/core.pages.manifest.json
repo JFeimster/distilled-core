@@ -1,0 +1,896 @@
+{
+  "schemaVersion": "1.0",
+  "name": "Distilled Core Canonical Pages",
+  "host": "www.distilledfunding.com",
+  "intendedOrigin": "https://www.distilledfunding.com",
+  "routingRule": "Core is the apex domain: paths begin directly at /. Never add /core/ prefix. Wix retains current authority until approved cutover.",
+  "canonicalEditableSource": "data/pages/*.json",
+  "generatedStatus": "build-input-manifest",
+  "totalPages": 31,
+  "pageFamilies": {
+    "home": 1,
+    "company": 7,
+    "contact": 4,
+    "explore": 9,
+    "resources": 4,
+    "partners": 1,
+    "legal": 5
+  },
+  "pages": [
+    {
+      "id": "core-home",
+      "path": "/",
+      "label": "Home",
+      "pageType": "flagship",
+      "family": "home",
+      "parentPath": null,
+      "file": "data/pages/index.json",
+      "status": "copy-review",
+      "reviewStatus": "requires-editorial-review",
+      "indexStatus": "noindex",
+      "title": "Home | Distilled Funding & Moonshine Capital",
+      "description": "Capital access, tools, operating intelligence, and people who understand what it takes to move a business forward.",
+      "hero": {
+        "eyebrow": "CAPITAL // INTELLIGENCE // INFRASTRUCTURE",
+        "headline": "BUILD IT. FUND IT. OWN MORE.",
+        "subheadline": "Capital access, tools, operating intelligence, and people who understand what it takes to move a business forward."
+      },
+      "relatedPaths": [
+        "/how-it-works",
+        "/explore",
+        "/our-network"
+      ],
+      "cta": {
+        "label": "FIND MY PATH",
+        "target": "/explore",
+        "targetKind": "local"
+      }
+    },
+    {
+      "id": "core-about",
+      "path": "/about",
+      "label": "About",
+      "pageType": "corporate-editorial",
+      "family": "company",
+      "parentPath": "/",
+      "file": "data/pages/about.json",
+      "status": "copy-review",
+      "reviewStatus": "requires-editorial-review",
+      "indexStatus": "noindex",
+      "title": "About | Distilled Funding & Moonshine Capital",
+      "description": "Moonshine Capital and Distilled Funding connect business owners with funding routes, practical tools and ways to make stronger financial decisions.",
+      "hero": {
+        "eyebrow": "THE COMPANY / 01",
+        "headline": "CAPITAL IS THE START. THE BUSINESS IS THE POINT.",
+        "subheadline": "Moonshine Capital and Distilled Funding connect business owners with funding routes, practical tools and ways to make stronger financial decisions."
+      },
+      "relatedPaths": [
+        "/our-story",
+        "/mission",
+        "/how-it-works"
+      ],
+      "cta": {
+        "label": "EXPLORE THE NETWORK",
+        "target": "/our-network",
+        "targetKind": "local"
+      }
+    },
+    {
+      "id": "core-our-story",
+      "path": "/our-story",
+      "label": "Our Story",
+      "pageType": "corporate-editorial",
+      "family": "company",
+      "parentPath": "/",
+      "file": "data/pages/our-story.json",
+      "status": "copy-review",
+      "reviewStatus": "requires-editorial-review",
+      "indexStatus": "noindex",
+      "title": "Our Story | Distilled Funding & Moonshine Capital",
+      "description": "The need for business capital rarely arrives neatly packaged in a lender application. It arrives as an opportunity, a gap or a decision that cannot wait forever.",
+      "hero": {
+        "eyebrow": "OUR STORY / 02",
+        "headline": "BUILT AROUND THE OPERATOR.",
+        "subheadline": "The need for business capital rarely arrives neatly packaged in a lender application. It arrives as an opportunity, a gap or a decision that cannot wait forever."
+      },
+      "relatedPaths": [
+        "/about",
+        "/mission",
+        "/our-network"
+      ],
+      "cta": {
+        "label": "SEE HOW IT WORKS",
+        "target": "/how-it-works",
+        "targetKind": "local"
+      }
+    },
+    {
+      "id": "core-mission",
+      "path": "/mission",
+      "label": "Mission & Values",
+      "pageType": "corporate-editorial",
+      "family": "company",
+      "parentPath": "/",
+      "file": "data/pages/mission.json",
+      "status": "copy-review",
+      "reviewStatus": "requires-editorial-review",
+      "indexStatus": "noindex",
+      "title": "Mission & Values | Distilled Funding & Moonshine Capital",
+      "description": "Our working principles are practical: respect the operator, solve the real problem and use financial leverage with intention.",
+      "hero": {
+        "eyebrow": "WHAT WE BELIEVE / 03",
+        "headline": "KNOW THE NUMBERS. KEEP THE OPTIONS.",
+        "subheadline": "Our working principles are practical: respect the operator, solve the real problem and use financial leverage with intention."
+      },
+      "relatedPaths": [
+        "/about",
+        "/why-distilled"
+      ],
+      "cta": {
+        "label": "FIND YOUR NEXT MOVE",
+        "target": "/explore",
+        "targetKind": "local"
+      }
+    },
+    {
+      "id": "core-how-it-works",
+      "path": "/how-it-works",
+      "label": "How It Works",
+      "pageType": "process",
+      "family": "company",
+      "parentPath": "/",
+      "file": "data/pages/how-it-works.json",
+      "status": "copy-review",
+      "reviewStatus": "requires-editorial-review",
+      "indexStatus": "noindex",
+      "title": "How It Works | Distilled Funding & Moonshine Capital",
+      "description": "Start with the outcome, compare realistic options, understand the economics and proceed only when the next step makes sense.",
+      "hero": {
+        "eyebrow": "THE PROCESS / 04",
+        "headline": "TELL US THE MOVE. THEN FIND THE ROUTE.",
+        "subheadline": "Start with the outcome, compare realistic options, understand the economics and proceed only when the next step makes sense."
+      },
+      "relatedPaths": [
+        "/explore/funding",
+        "/explore/solutions",
+        "/contact"
+      ],
+      "cta": {
+        "label": "CHOOSE YOUR MISSION",
+        "target": "/explore",
+        "targetKind": "local"
+      }
+    },
+    {
+      "id": "core-why-distilled",
+      "path": "/why-distilled",
+      "label": "Why Distilled",
+      "pageType": "corporate-editorial",
+      "family": "company",
+      "parentPath": "/",
+      "file": "data/pages/why-distilled.json",
+      "status": "copy-review",
+      "reviewStatus": "requires-editorial-review",
+      "indexStatus": "noindex",
+      "title": "Why Distilled | Distilled Funding & Moonshine Capital",
+      "description": "A business needs a route that fits its economics—not simply the most visible button on a finance website.",
+      "hero": {
+        "eyebrow": "THE DIFFERENCE / 05",
+        "headline": "LESS PRODUCT PITCH. MORE DECISION SUPPORT.",
+        "subheadline": "A business needs a route that fits its economics—not simply the most visible button on a finance website."
+      },
+      "relatedPaths": [
+        "/how-it-works",
+        "/explore"
+      ],
+      "cta": {
+        "label": "EXPLORE THE SYSTEM",
+        "target": "/our-network",
+        "targetKind": "local"
+      }
+    },
+    {
+      "id": "core-our-network",
+      "path": "/our-network",
+      "label": "Our Network",
+      "pageType": "ecosystem-hub",
+      "family": "company",
+      "parentPath": "/",
+      "file": "data/pages/our-network.json",
+      "status": "copy-review",
+      "reviewStatus": "requires-editorial-review",
+      "indexStatus": "noindex",
+      "title": "Our Network | Distilled Funding & Moonshine Capital",
+      "description": "Funding, Solutions, Industries, acquisitions, tools, education and partner resources belong together—but should not be mashed into one generic website.",
+      "hero": {
+        "eyebrow": "CONNECTED CAPABILITIES / 06",
+        "headline": "ONE NETWORK. THE RIGHT SPECIALIST FOR THE JOB.",
+        "subheadline": "Funding, Solutions, Industries, acquisitions, tools, education and partner resources belong together—but should not be mashed into one generic website."
+      },
+      "relatedPaths": [
+        "/explore/funding",
+        "/explore/solutions",
+        "/explore/industries"
+      ],
+      "cta": {
+        "label": "EXPLORE PROPERTIES",
+        "target": "/explore",
+        "targetKind": "local"
+      }
+    },
+    {
+      "id": "core-contact",
+      "path": "/contact",
+      "label": "Contact",
+      "pageType": "contact-hub",
+      "family": "contact",
+      "parentPath": "/",
+      "file": "data/pages/contact.json",
+      "status": "copy-review",
+      "reviewStatus": "requires-editorial-review",
+      "indexStatus": "noindex",
+      "title": "Contact | Distilled Funding & Moonshine Capital",
+      "description": "Funding request, partnership discussion or general question? Choose the appropriate route so your message reaches the right workflow.",
+      "hero": {
+        "eyebrow": "GET IN TOUCH / 01",
+        "headline": "THE RIGHT CONVERSATION STARTS WITH THE RIGHT SUBJECT.",
+        "subheadline": "Funding request, partnership discussion or general question? Choose the appropriate route so your message reaches the right workflow."
+      },
+      "relatedPaths": [
+        "/contact/partners",
+        "/contact/general"
+      ],
+      "cta": {
+        "label": "CHOOSE CONTACT TYPE",
+        "target": "/contact/funding",
+        "targetKind": "local"
+      }
+    },
+    {
+      "id": "core-contact-funding",
+      "path": "/contact/funding",
+      "label": "Funding Inquiries",
+      "pageType": "contact-handoff",
+      "family": "contact",
+      "parentPath": "/contact",
+      "file": "data/pages/contact--funding.json",
+      "status": "copy-review",
+      "reviewStatus": "requires-editorial-review",
+      "indexStatus": "noindex",
+      "title": "Funding Inquiries | Distilled Funding & Moonshine Capital",
+      "description": "Start with the funding objective, timing and operating situation. The existing application workflow is the place to submit sensitive financial details.",
+      "hero": {
+        "eyebrow": "CONTACT / FUNDING",
+        "headline": "READY TO DISCUSS CAPITAL?",
+        "subheadline": "Start with the funding objective, timing and operating situation. The existing application workflow is the place to submit sensitive financial details."
+      },
+      "relatedPaths": [
+        "/explore/funding",
+        "/contact"
+      ],
+      "cta": {
+        "label": "OPEN FUNDING APPLICATION",
+        "target": "cap:wix-apply",
+        "targetKind": "capability"
+      }
+    },
+    {
+      "id": "core-contact-partners",
+      "path": "/contact/partners",
+      "label": "Partnership Inquiries",
+      "pageType": "contact-handoff",
+      "family": "contact",
+      "parentPath": "/contact",
+      "file": "data/pages/contact--partners.json",
+      "status": "copy-review",
+      "reviewStatus": "requires-editorial-review",
+      "indexStatus": "noindex",
+      "title": "Partnership Inquiries | Distilled Funding & Moonshine Capital",
+      "description": "Professional referrals, affiliate distribution and broker relationships need a different conversation from a borrower application.",
+      "hero": {
+        "eyebrow": "CONTACT / PARTNERS",
+        "headline": "BRING CAPITAL INTO THE RELATIONSHIPS YOU ALREADY HAVE.",
+        "subheadline": "Professional referrals, affiliate distribution and broker relationships need a different conversation from a borrower application."
+      },
+      "relatedPaths": [
+        "/contact",
+        "/explore/partners"
+      ],
+      "cta": {
+        "label": "EXPLORE PARTNER OPTIONS",
+        "target": "/partners",
+        "targetKind": "local"
+      }
+    },
+    {
+      "id": "core-contact-general",
+      "path": "/contact/general",
+      "label": "General Inquiries",
+      "pageType": "contact-handoff",
+      "family": "contact",
+      "parentPath": "/contact",
+      "file": "data/pages/contact--general.json",
+      "status": "copy-review",
+      "reviewStatus": "requires-editorial-review",
+      "indexStatus": "noindex",
+      "title": "General Inquiries | Distilled Funding & Moonshine Capital",
+      "description": "Questions about the company, content, collaboration or website itself belong in a general business channel.",
+      "hero": {
+        "eyebrow": "CONTACT / GENERAL",
+        "headline": "NOT EVERYTHING NEEDS AN APPLICATION.",
+        "subheadline": "Questions about the company, content, collaboration or website itself belong in a general business channel."
+      },
+      "relatedPaths": [
+        "/contact",
+        "/about"
+      ],
+      "cta": {
+        "label": "EMAIL THE TEAM",
+        "target": "mailto:admin@distilledfunding.com",
+        "targetKind": "mailto"
+      }
+    },
+    {
+      "id": "core-explore",
+      "path": "/explore",
+      "label": "Explore",
+      "pageType": "ecosystem-directory",
+      "family": "explore",
+      "parentPath": "/",
+      "file": "data/pages/explore.json",
+      "status": "copy-review",
+      "reviewStatus": "requires-editorial-review",
+      "indexStatus": "noindex",
+      "title": "Explore | Distilled Funding & Moonshine Capital",
+      "description": "The Distilled network is organized by what you want, what your business does and which specialized tool should handle the next action.",
+      "hero": {
+        "eyebrow": "NETWORK / ALL DESTINATIONS",
+        "headline": "PICK A MISSION. FIND THE RIGHT PLACE.",
+        "subheadline": "The Distilled network is organized by what you want, what your business does and which specialized tool should handle the next action."
+      },
+      "relatedPaths": [
+        "/our-network",
+        "/explore/solutions",
+        "/explore/industries"
+      ],
+      "cta": {
+        "label": "EXPLORE FUNDING",
+        "target": "/explore/funding",
+        "targetKind": "local"
+      }
+    },
+    {
+      "id": "core-explore-funding",
+      "path": "/explore/funding",
+      "label": "Funding",
+      "pageType": "property-gateway",
+      "family": "explore",
+      "parentPath": "/explore",
+      "file": "data/pages/explore--funding.json",
+      "status": "copy-review",
+      "reviewStatus": "requires-editorial-review",
+      "indexStatus": "noindex",
+      "title": "Funding | Distilled Funding & Moonshine Capital",
+      "description": "Working capital, business credit, equipment, acquisition financing and real estate capital each solve different funding problems.",
+      "hero": {
+        "eyebrow": "NETWORK / CAPITAL",
+        "headline": "FIND THE CAPITAL PRODUCT. UNDERSTAND THE COST.",
+        "subheadline": "Working capital, business credit, equipment, acquisition financing and real estate capital each solve different funding problems."
+      },
+      "relatedPaths": [
+        "/explore/solutions",
+        "/contact/funding"
+      ],
+      "cta": {
+        "label": "VISIT FUNDING",
+        "target": "prop:funding",
+        "targetKind": "property"
+      }
+    },
+    {
+      "id": "core-explore-solutions",
+      "path": "/explore/solutions",
+      "label": "Solutions",
+      "pageType": "property-gateway",
+      "family": "explore",
+      "parentPath": "/explore",
+      "file": "data/pages/explore--solutions.json",
+      "status": "copy-review",
+      "reviewStatus": "requires-editorial-review",
+      "indexStatus": "noindex",
+      "title": "Solutions | Distilled Funding & Moonshine Capital",
+      "description": "Cash-flow constraints, growth decisions, business credit and financial operations require more than a product list.",
+      "hero": {
+        "eyebrow": "NETWORK / OUTCOMES",
+        "headline": "FIX THE PROBLEM. THEN CHOOSE THE TOOL.",
+        "subheadline": "Cash-flow constraints, growth decisions, business credit and financial operations require more than a product list."
+      },
+      "relatedPaths": [
+        "/explore/funding",
+        "/explore/tools"
+      ],
+      "cta": {
+        "label": "VISIT SOLUTIONS",
+        "target": "prop:solutions",
+        "targetKind": "property"
+      }
+    },
+    {
+      "id": "core-explore-industries",
+      "path": "/explore/industries",
+      "label": "Industries",
+      "pageType": "property-gateway",
+      "family": "explore",
+      "parentPath": "/explore",
+      "file": "data/pages/explore--industries.json",
+      "status": "copy-review",
+      "reviewStatus": "requires-editorial-review",
+      "indexStatus": "noindex",
+      "title": "Industries | Distilled Funding & Moonshine Capital",
+      "description": "Construction crews, ecommerce sellers and medical practices carry different costs and collect revenue on different schedules.",
+      "hero": {
+        "eyebrow": "NETWORK / SECTORS",
+        "headline": "YOUR CASH CYCLE ISN’T EVERYONE ELSE’S.",
+        "subheadline": "Construction crews, ecommerce sellers and medical practices carry different costs and collect revenue on different schedules."
+      },
+      "relatedPaths": [
+        "/explore/funding",
+        "/explore/solutions"
+      ],
+      "cta": {
+        "label": "FIND YOUR INDUSTRY",
+        "target": "prop:industries",
+        "targetKind": "property"
+      }
+    },
+    {
+      "id": "core-explore-acquisitions",
+      "path": "/explore/acquisitions",
+      "label": "Acquisitions",
+      "pageType": "property-gateway",
+      "family": "explore",
+      "parentPath": "/explore",
+      "file": "data/pages/explore--acquisitions.json",
+      "status": "copy-review",
+      "reviewStatus": "requires-editorial-review",
+      "indexStatus": "noindex",
+      "title": "Acquisitions | Distilled Funding & Moonshine Capital",
+      "description": "Buying a business is a transaction, financing problem and operating decision at the same time.",
+      "hero": {
+        "eyebrow": "NETWORK / OWNERSHIP",
+        "headline": "BUY OR SELL WITH THE NUMBERS IN VIEW.",
+        "subheadline": "Buying a business is a transaction, financing problem and operating decision at the same time."
+      },
+      "relatedPaths": [
+        "/explore/funding",
+        "/explore/tools"
+      ],
+      "cta": {
+        "label": "ENTER ACQUIRE",
+        "target": "prop:acquire",
+        "targetKind": "property"
+      }
+    },
+    {
+      "id": "core-explore-tools",
+      "path": "/explore/tools",
+      "label": "Tools",
+      "pageType": "property-gateway",
+      "family": "explore",
+      "parentPath": "/explore",
+      "file": "data/pages/explore--tools.json",
+      "status": "copy-review",
+      "reviewStatus": "requires-editorial-review",
+      "indexStatus": "noindex",
+      "title": "Tools | Distilled Funding & Moonshine Capital",
+      "description": "Financial calculators and diagnostic utilities help turn open-ended questions into testable assumptions.",
+      "hero": {
+        "eyebrow": "NETWORK / BLACK LAB",
+        "headline": "RUN THE NUMBERS BEFORE YOU MAKE THE MOVE.",
+        "subheadline": "Financial calculators and diagnostic utilities help turn open-ended questions into testable assumptions."
+      },
+      "relatedPaths": [
+        "/explore/funding",
+        "/explore/acquisitions"
+      ],
+      "cta": {
+        "label": "BROWSE VERIFIED TOOLS",
+        "target": "/resources/tools",
+        "targetKind": "local"
+      }
+    },
+    {
+      "id": "core-explore-marketplace",
+      "path": "/explore/marketplace",
+      "label": "Marketplace",
+      "pageType": "property-gateway",
+      "family": "explore",
+      "parentPath": "/explore",
+      "file": "data/pages/explore--marketplace.json",
+      "status": "integration-review",
+      "reviewStatus": "requires-editorial-review",
+      "indexStatus": "noindex",
+      "title": "Marketplace | Distilled Funding & Moonshine Capital",
+      "description": "Accounting, business banking, CRM, payroll, marketing and automation services should be easier to compare than a loose pile of affiliate links.",
+      "hero": {
+        "eyebrow": "NETWORK / BUSINESS SERVICES",
+        "headline": "BUILD A BETTER BUSINESS STACK.",
+        "subheadline": "Accounting, business banking, CRM, payroll, marketing and automation services should be easier to compare than a loose pile of affiliate links."
+      },
+      "relatedPaths": [
+        "/explore",
+        "/explore/solutions"
+      ],
+      "cta": {
+        "label": "VIEW CURRENT SERVICES",
+        "target": "cap:wix-services",
+        "targetKind": "capability"
+      }
+    },
+    {
+      "id": "core-explore-learn",
+      "path": "/explore/learn",
+      "label": "Learn",
+      "pageType": "property-gateway",
+      "family": "explore",
+      "parentPath": "/explore",
+      "file": "data/pages/explore--learn.json",
+      "status": "copy-review",
+      "reviewStatus": "requires-editorial-review",
+      "indexStatus": "noindex",
+      "title": "Learn | Distilled Funding & Moonshine Capital",
+      "description": "Business funding, acquisition decisions and operating workflows get easier to evaluate when the underlying ideas are clear.",
+      "hero": {
+        "eyebrow": "NETWORK / EDUCATION",
+        "headline": "KNOW THE GAME BEFORE THE GAME CHARGES TUITION.",
+        "subheadline": "Business funding, acquisition decisions and operating workflows get easier to evaluate when the underlying ideas are clear."
+      },
+      "relatedPaths": [
+        "/resources/articles",
+        "/resources/guides"
+      ],
+      "cta": {
+        "label": "READ THE BLOG",
+        "target": "cap:wix-blog",
+        "targetKind": "capability"
+      }
+    },
+    {
+      "id": "core-explore-partners",
+      "path": "/explore/partners",
+      "label": "Partners",
+      "pageType": "property-gateway",
+      "family": "explore",
+      "parentPath": "/explore",
+      "file": "data/pages/explore--partners.json",
+      "status": "copy-review",
+      "reviewStatus": "requires-editorial-review",
+      "indexStatus": "noindex",
+      "title": "Partners | Distilled Funding & Moonshine Capital",
+      "description": "Referral professionals and brokers often need a reliable place to learn how opportunities are handled and where a partner inquiry belongs.",
+      "hero": {
+        "eyebrow": "NETWORK / DISTRIBUTION",
+        "headline": "MAKE CAPITAL A CAPABILITY.",
+        "subheadline": "Referral professionals and brokers often need a reliable place to learn how opportunities are handled and where a partner inquiry belongs."
+      },
+      "relatedPaths": [
+        "/contact/partners",
+        "/our-network"
+      ],
+      "cta": {
+        "label": "EXPLORE PARTNERS",
+        "target": "/partners",
+        "targetKind": "local"
+      }
+    },
+    {
+      "id": "core-resources",
+      "path": "/resources",
+      "label": "Resources",
+      "pageType": "resource-hub",
+      "family": "resources",
+      "parentPath": "/",
+      "file": "data/pages/resources.json",
+      "status": "copy-review",
+      "reviewStatus": "requires-editorial-review",
+      "indexStatus": "noindex",
+      "title": "Resources | Distilled Funding & Moonshine Capital",
+      "description": "Explore guides, tools and editorial resources organized around financing, operating decisions and ownership.",
+      "hero": {
+        "eyebrow": "FIELD NOTES / RESOURCES",
+        "headline": "READ LESS NOISE. FIND MORE SIGNAL.",
+        "subheadline": "Explore guides, tools and editorial resources organized around financing, operating decisions and ownership."
+      },
+      "relatedPaths": [
+        "/resources/guides",
+        "/resources/tools"
+      ],
+      "cta": {
+        "label": "VIEW ARTICLES",
+        "target": "/resources/articles",
+        "targetKind": "local"
+      }
+    },
+    {
+      "id": "core-resources-guides",
+      "path": "/resources/guides",
+      "label": "Guides",
+      "pageType": "curated-directory",
+      "family": "resources",
+      "parentPath": "/resources",
+      "file": "data/pages/resources--guides.json",
+      "status": "copy-review",
+      "reviewStatus": "requires-editorial-review",
+      "indexStatus": "noindex",
+      "title": "Guides | Distilled Funding & Moonshine Capital",
+      "description": "Learn the ideas behind capital products, cash-flow decisions, business credit, acquisitions and operating systems.",
+      "hero": {
+        "eyebrow": "FIELD NOTES / GUIDES",
+        "headline": "PRACTICAL GUIDES. NO APPLICATION REQUIRED.",
+        "subheadline": "Learn the ideas behind capital products, cash-flow decisions, business credit, acquisitions and operating systems."
+      },
+      "relatedPaths": [
+        "/resources/articles",
+        "/resources/tools"
+      ],
+      "cta": {
+        "label": "EXPLORE FUNDING GUIDES",
+        "target": "prop:funding",
+        "targetKind": "property"
+      }
+    },
+    {
+      "id": "core-resources-tools",
+      "path": "/resources/tools",
+      "label": "Tools Directory",
+      "pageType": "curated-directory",
+      "family": "resources",
+      "parentPath": "/resources",
+      "file": "data/pages/resources--tools.json",
+      "status": "copy-review",
+      "reviewStatus": "requires-editorial-review",
+      "indexStatus": "noindex",
+      "title": "Tools Directory | Distilled Funding & Moonshine Capital",
+      "description": "Calculators, checklists and assessments should make financial decisions more legible.",
+      "hero": {
+        "eyebrow": "FIELD NOTES / TOOLS",
+        "headline": "THE BEST QUESTION IS ONE YOU CAN TEST.",
+        "subheadline": "Calculators, checklists and assessments should make financial decisions more legible."
+      },
+      "relatedPaths": [
+        "/explore/tools",
+        "/resources"
+      ],
+      "cta": {
+        "label": "EXPLORE THE NETWORK",
+        "target": "/explore",
+        "targetKind": "local"
+      }
+    },
+    {
+      "id": "core-resources-articles",
+      "path": "/resources/articles",
+      "label": "Articles",
+      "pageType": "curated-directory",
+      "family": "resources",
+      "parentPath": "/resources",
+      "file": "data/pages/resources--articles.json",
+      "status": "copy-review",
+      "reviewStatus": "requires-editorial-review",
+      "indexStatus": "noindex",
+      "title": "Articles | Distilled Funding & Moonshine Capital",
+      "description": "Practical articles can help translate loan language, compare business services and understand common financial mistakes.",
+      "hero": {
+        "eyebrow": "FIELD NOTES / EDITORIAL",
+        "headline": "REPORTS FROM THE OPERATING SIDE.",
+        "subheadline": "Practical articles can help translate loan language, compare business services and understand common financial mistakes."
+      },
+      "relatedPaths": [
+        "/resources",
+        "/explore/learn"
+      ],
+      "cta": {
+        "label": "VISIT THE BLOG",
+        "target": "cap:wix-blog",
+        "targetKind": "capability"
+      }
+    },
+    {
+      "id": "core-partners",
+      "path": "/partners",
+      "label": "Partner With Us",
+      "pageType": "partner-gateway",
+      "family": "partners",
+      "parentPath": "/",
+      "file": "data/pages/partners.json",
+      "status": "copy-review",
+      "reviewStatus": "requires-editorial-review",
+      "indexStatus": "noindex",
+      "title": "Partner With Us | Distilled Funding & Moonshine Capital",
+      "description": "Bring better funding conversations into the relationships you already serve—or explore building a referral and broker business.",
+      "hero": {
+        "eyebrow": "DISTRIBUTION / 01",
+        "headline": "BE THE PERSON BUSINESSES CALL.",
+        "subheadline": "Bring better funding conversations into the relationships you already serve—or explore building a referral and broker business."
+      },
+      "relatedPaths": [
+        "/contact/partners",
+        "/explore/partners"
+      ],
+      "cta": {
+        "label": "OPEN PARTNER INFORMATION",
+        "target": "cap:wix-partners",
+        "targetKind": "capability"
+      }
+    },
+    {
+      "id": "core-careers",
+      "path": "/careers",
+      "label": "Careers & Opportunities",
+      "pageType": "opportunity-directory",
+      "family": "company",
+      "parentPath": "/",
+      "file": "data/pages/careers.json",
+      "status": "integration-review",
+      "reviewStatus": "requires-editorial-review",
+      "indexStatus": "noindex",
+      "title": "Careers & Opportunities | Distilled Funding & Moonshine Capital",
+      "description": "Interested in business capital, financial operations, software, education or partner distribution? Start by understanding which type of opportunity is actually available.",
+      "hero": {
+        "eyebrow": "THE TEAM / OPPORTUNITIES",
+        "headline": "WORK THAT HELPS OPERATORS MOVE.",
+        "subheadline": "Interested in business capital, financial operations, software, education or partner distribution? Start by understanding which type of opportunity is actually available."
+      },
+      "relatedPaths": [
+        "/contact/general",
+        "/our-story"
+      ],
+      "cta": {
+        "label": "EXPLORE PARTNERSHIPS",
+        "target": "/partners",
+        "targetKind": "local"
+      }
+    },
+    {
+      "id": "core-legal",
+      "path": "/legal",
+      "label": "Legal Information",
+      "pageType": "trust-hub",
+      "family": "legal",
+      "parentPath": "/",
+      "file": "data/pages/legal.json",
+      "status": "legal-review-required",
+      "reviewStatus": "requires-legal-review",
+      "indexStatus": "noindex",
+      "title": "Legal Information | Distilled Funding & Moonshine Capital",
+      "description": "Find the governing policies and relevant disclosure notices associated with the company and its public-facing services.",
+      "hero": {
+        "eyebrow": "TRUST / LEGAL",
+        "headline": "KNOW WHO YOU ARE WORKING WITH.",
+        "subheadline": "Find the governing policies and relevant disclosure notices associated with the company and its public-facing services."
+      },
+      "relatedPaths": [
+        "/terms",
+        "/disclosures",
+        "/accessibility"
+      ],
+      "cta": {
+        "label": "VIEW PRIVACY INFORMATION",
+        "target": "/privacy",
+        "targetKind": "local"
+      }
+    },
+    {
+      "id": "core-privacy",
+      "path": "/privacy",
+      "label": "Privacy",
+      "pageType": "legal-handoff",
+      "family": "legal",
+      "parentPath": "/legal",
+      "file": "data/pages/privacy.json",
+      "status": "legal-review-required",
+      "reviewStatus": "requires-legal-review",
+      "indexStatus": "noindex",
+      "title": "Privacy | Distilled Funding & Moonshine Capital",
+      "description": "Access the applicable privacy notice for the website and related intake experiences.",
+      "hero": {
+        "eyebrow": "TRUST / PRIVACY",
+        "headline": "YOUR DATA DESERVES A REAL POLICY.",
+        "subheadline": "Access the applicable privacy notice for the website and related intake experiences."
+      },
+      "relatedPaths": [
+        "/legal",
+        "/contact/general"
+      ],
+      "cta": {
+        "label": "OPEN CURRENT PRIVACY POLICY",
+        "target": "cap:wix-privacy",
+        "targetKind": "capability"
+      }
+    },
+    {
+      "id": "core-terms",
+      "path": "/terms",
+      "label": "Terms of Use",
+      "pageType": "legal-handoff",
+      "family": "legal",
+      "parentPath": "/legal",
+      "file": "data/pages/terms.json",
+      "status": "legal-review-required",
+      "reviewStatus": "requires-legal-review",
+      "indexStatus": "noindex",
+      "title": "Terms of Use | Distilled Funding & Moonshine Capital",
+      "description": "Review the terms governing use of the appropriate service or application.",
+      "hero": {
+        "eyebrow": "TRUST / TERMS",
+        "headline": "CLEAR TERMS BEFORE YOU COMMIT.",
+        "subheadline": "Review the terms governing use of the appropriate service or application."
+      },
+      "relatedPaths": [
+        "/privacy",
+        "/disclosures"
+      ],
+      "cta": {
+        "label": "BACK TO LEGAL",
+        "target": "/legal",
+        "targetKind": "local"
+      }
+    },
+    {
+      "id": "core-disclosures",
+      "path": "/disclosures",
+      "label": "Disclosures",
+      "pageType": "legal-handoff",
+      "family": "legal",
+      "parentPath": "/legal",
+      "file": "data/pages/disclosures.json",
+      "status": "legal-review-required",
+      "reviewStatus": "requires-legal-review",
+      "indexStatus": "noindex",
+      "title": "Disclosures | Distilled Funding & Moonshine Capital",
+      "description": "Funding, referrals, tools and affiliate recommendations can involve different commercial relationships and eligibility rules.",
+      "hero": {
+        "eyebrow": "TRUST / DISCLOSURES",
+        "headline": "UNDERSTAND THE RELATIONSHIPS.",
+        "subheadline": "Funding, referrals, tools and affiliate recommendations can involve different commercial relationships and eligibility rules."
+      },
+      "relatedPaths": [
+        "/legal",
+        "/privacy"
+      ],
+      "cta": {
+        "label": "CONTACT FOR CLARIFICATION",
+        "target": "/contact/general",
+        "targetKind": "local"
+      }
+    },
+    {
+      "id": "core-accessibility",
+      "path": "/accessibility",
+      "label": "Accessibility",
+      "pageType": "trust-page",
+      "family": "legal",
+      "parentPath": "/legal",
+      "file": "data/pages/accessibility.json",
+      "status": "copy-review",
+      "reviewStatus": "requires-legal-review",
+      "indexStatus": "noindex",
+      "title": "Accessibility | Distilled Funding & Moonshine Capital",
+      "description": "Distilled Core aims to provide an accessible path to company information and connected resources.",
+      "hero": {
+        "eyebrow": "TRUST / ACCESS",
+        "headline": "THE SITE SHOULD WORK FOR EVERYONE.",
+        "subheadline": "Distilled Core aims to provide an accessible path to company information and connected resources."
+      },
+      "relatedPaths": [
+        "/legal",
+        "/contact"
+      ],
+      "cta": {
+        "label": "CONTACT THE TEAM",
+        "target": "/contact/general",
+        "targetKind": "local"
+      }
+    }
+  ]
+}

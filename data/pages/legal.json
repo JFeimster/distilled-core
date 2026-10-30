@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0",
+  "id": "core-legal",
+  "slug": "legal",
+  "path": "/legal",
+  "pageType": "trust-hub",
+  "family": "legal",
+  "parentPath": "/",
+  "navGroups": [
+    "legal"
+  ],
+  "status": "legal-review-required",
+  "indexStatus": "noindex",
+  "review": {
+    "status": "requires-legal-review",
+    "lastReviewed": null,
+    "sourceKind": "editorial-draft",
+    "sources": []
+  },
+  "seo": {
+    "title": "Legal Information | Distilled Funding & Moonshine Capital",
+    "description": "Find the governing policies and relevant disclosure notices associated with the company and its public-facing services.",
+    "canonicalPath": "/legal",
+    "intendedCanonicalHost": "https://www.distilledfunding.com",
+    "schemaTypes": [
+      "WebPage",
+      "BreadcrumbList"
+    ],
+    "publishable": false
+  },
+  "hero": {
+    "eyebrow": "TRUST / LEGAL",
+    "headline": "KNOW WHO YOU ARE WORKING WITH.",
+    "subheadline": "Find the governing policies and relevant disclosure notices associated with the company and its public-facing services."
+  },
+  "content": {
+    "lead": "A legal hub must direct people to real policy documents rather than displaying generated terms as if they are enforceable.",
+    "sections": [
+      {
+        "id": "reality",
+        "type": "editorial",
+        "heading": "THE REALITY",
+        "body": "A legal hub must direct people to real policy documents rather than displaying generated terms as if they are enforceable."
+      },
+      {
+        "id": "route",
+        "type": "editorial-path",
+        "heading": "HOW TO APPROACH IT",
+        "body": "Link to verified current privacy, terms and disclosures where available. Record version, legal owner and migration requirement before the apex domain changes."
+      },
+      {
+        "id": "next",
+        "type": "decision-note",
+        "heading": "YOUR NEXT MOVE",
+        "body": "Any missing legal material remains review-required; its presence in the proposed sitemap does not constitute publication approval."
+      }
+    ],
+    "complianceNotes": [
+      "Legal content not supplied. Do not publish a generated legal contract. Source and approval required."
+    ]
+  },
+  "cta": {
+    "label": "VIEW PRIVACY INFORMATION",
+    "target": "/privacy",
+    "targetKind": "local"
+  },
+  "relatedPaths": [
+    "/terms",
+    "/disclosures",
+    "/accessibility"
+  ],
+  "modulePlan": {
+    "surface": "trust-hub",
+    "modules": [
+      "hero",
+      "reality",
+      "route",
+      "next",
+      "related",
+      "final-cta"
+    ]
+  },
+  "sourceFile": "data/pages/legal.json"
+}

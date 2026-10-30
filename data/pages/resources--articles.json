@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.0",
+  "id": "core-resources-articles",
+  "slug": "articles",
+  "path": "/resources/articles",
+  "pageType": "curated-directory",
+  "family": "resources",
+  "parentPath": "/resources",
+  "navGroups": [
+    "resources"
+  ],
+  "status": "copy-review",
+  "indexStatus": "noindex",
+  "review": {
+    "status": "requires-editorial-review",
+    "lastReviewed": null,
+    "sourceKind": "editorial-draft",
+    "sources": []
+  },
+  "seo": {
+    "title": "Articles | Distilled Funding & Moonshine Capital",
+    "description": "Practical articles can help translate loan language, compare business services and understand common financial mistakes.",
+    "canonicalPath": "/resources/articles",
+    "intendedCanonicalHost": "https://www.distilledfunding.com",
+    "schemaTypes": [
+      "WebPage",
+      "BreadcrumbList"
+    ],
+    "publishable": true
+  },
+  "hero": {
+    "eyebrow": "FIELD NOTES / EDITORIAL",
+    "headline": "REPORTS FROM THE OPERATING SIDE.",
+    "subheadline": "Practical articles can help translate loan language, compare business services and understand common financial mistakes."
+  },
+  "content": {
+    "lead": "A second blog would create duplicate content and extra editorial work while Wix remains the current publisher.",
+    "sections": [
+      {
+        "id": "reality",
+        "type": "editorial",
+        "heading": "THE REALITY",
+        "body": "A second blog would create duplicate content and extra editorial work while Wix remains the current publisher."
+      },
+      {
+        "id": "route",
+        "type": "editorial-path",
+        "heading": "HOW TO APPROACH IT",
+        "body": "Core should use curated cards or an approved read-only feed that points to the Wix blog canonical URLs. Do not copy article bodies, invent publication dates or create a competing CMS."
+      },
+      {
+        "id": "next",
+        "type": "decision-note",
+        "heading": "YOUR NEXT MOVE",
+        "body": "Follow the original article for its sources, date, category and any subsequent updates. The same published work can appear as a contextual card on Core and on specialist sites while the original article body stays with its Wix canonical URL."
+      }
+    ],
+    "complianceNotes": [
+      "Editorial draft; no invented financial product terms."
+    ]
+  },
+  "cta": {
+    "label": "VISIT THE BLOG",
+    "target": "cap:wix-blog",
+    "targetKind": "capability"
+  },
+  "relatedPaths": [
+    "/resources",
+    "/explore/learn"
+  ],
+  "modulePlan": {
+    "surface": "curated-directory",
+    "modules": [
+      "hero",
+      "reality",
+      "route",
+      "next",
+      "related",
+      "final-cta"
+    ]
+  },
+  "sourceFile": "data/pages/resources--articles.json"
+}

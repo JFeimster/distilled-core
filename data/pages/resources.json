@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.0",
+  "id": "core-resources",
+  "slug": "resources",
+  "path": "/resources",
+  "pageType": "resource-hub",
+  "family": "resources",
+  "parentPath": "/",
+  "navGroups": [
+    "resources"
+  ],
+  "status": "copy-review",
+  "indexStatus": "noindex",
+  "review": {
+    "status": "requires-editorial-review",
+    "lastReviewed": null,
+    "sourceKind": "editorial-draft",
+    "sources": []
+  },
+  "seo": {
+    "title": "Resources | Distilled Funding & Moonshine Capital",
+    "description": "Explore guides, tools and editorial resources organized around financing, operating decisions and ownership.",
+    "canonicalPath": "/resources",
+    "intendedCanonicalHost": "https://www.distilledfunding.com",
+    "schemaTypes": [
+      "WebPage",
+      "BreadcrumbList"
+    ],
+    "publishable": true
+  },
+  "hero": {
+    "eyebrow": "FIELD NOTES / RESOURCES",
+    "headline": "READ LESS NOISE. FIND MORE SIGNAL.",
+    "subheadline": "Explore guides, tools and editorial resources organized around financing, operating decisions and ownership."
+  },
+  "content": {
+    "lead": "A resource center should help a visitor progress toward a decision, not bury them in duplicate article archives.",
+    "sections": [
+      {
+        "id": "reality",
+        "type": "editorial",
+        "heading": "THE REALITY",
+        "body": "A resource center should help a visitor progress toward a decision, not bury them in duplicate article archives."
+      },
+      {
+        "id": "route",
+        "type": "editorial-path",
+        "heading": "HOW TO APPROACH IT",
+        "body": "Core curates useful starting points and links to the actual owner of every guide, tool or article. Existing Wix posts retain their canonical addresses."
+      },
+      {
+        "id": "next",
+        "type": "decision-note",
+        "heading": "YOUR NEXT MOVE",
+        "body": "Choose the format—guide, tool or article—that best answers the question in front of you. Use the shortest path from question to answer: a specific financing comparison, industry field guide, diagnostic, practical checklist or original published article."
+      }
+    ],
+    "complianceNotes": [
+      "Editorial draft; no invented financial product terms."
+    ]
+  },
+  "cta": {
+    "label": "VIEW ARTICLES",
+    "target": "/resources/articles",
+    "targetKind": "local"
+  },
+  "relatedPaths": [
+    "/resources/guides",
+    "/resources/tools"
+  ],
+  "modulePlan": {
+    "surface": "resource-hub",
+    "modules": [
+      "hero",
+      "reality",
+      "route",
+      "next",
+      "related",
+      "final-cta"
+    ]
+  },
+  "sourceFile": "data/pages/resources.json"
+}
